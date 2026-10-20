@@ -1,0 +1,15 @@
+name: Feature request / Sugerencia
+description: An idea, a missing folder or something to improve · Una idea, una carpeta que falta o algo que mejorar
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like? · ¿Qué te gustaría?
+    validations:
+      required: true
+  - type: input
+    id: folder
+    attributes:
+      label: Folder path, if it's a missing folder · Ruta de la carpeta, si falta una
+      placeholder: "~/Library/Caches/…"

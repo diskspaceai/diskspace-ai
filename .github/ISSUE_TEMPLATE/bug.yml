@@ -1,0 +1,26 @@
+name: Bug / Error
+description: Something doesn't work as expected · Algo no funciona como debería
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened? · ¿Qué ha pasado?
+      description: What you did, what you expected and what you saw. Screenshots help. · Qué hiciste, qué esperabas y qué viste. Las capturas ayudan.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: DiskSpace AI version · Versión (DiskSpace AI → Settings → License)
+      placeholder: "1.0.6"
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS and Mac · macOS y Mac
+      placeholder: "macOS 26.1, MacBook Air M3"
+  - type: markdown
+    attributes:
+      value: "Please don't paste personal file names you'd rather keep private. · No pegues nombres de archivos personales que prefieras no publicar."

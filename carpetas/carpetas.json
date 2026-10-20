@@ -1,0 +1,682 @@
+[
+  {
+    "id": "uv-cache",
+    "name": "Caché de uv (Python)",
+    "path": "~/.cache/uv",
+    "category": "Cachés de paquetes",
+    "verdict": "safe",
+    "what_it_is": "Paquetes de Python que uv ya descargó. Los vuelve a bajar cuando hacen falta.",
+    "how_to_free": "Con el comando de la propia herramienta: `uv cache clean`",
+    "guide": "https://diskspaceai.com/es/carpetas/uv-cache"
+  },
+  {
+    "id": "pip-cache",
+    "name": "Caché de pip",
+    "path": "~/Library/Caches/pip",
+    "category": "Cachés de paquetes",
+    "verdict": "safe",
+    "what_it_is": "Paquetes de Python descargados por pip.",
+    "how_to_free": "Con el comando de la propia herramienta: `pip cache purge`",
+    "guide": "https://diskspaceai.com/es/carpetas/pip-cache"
+  },
+  {
+    "id": "npm-cache",
+    "name": "Caché de npm",
+    "path": "~/.npm/_cacache",
+    "category": "Cachés de paquetes",
+    "verdict": "safe",
+    "what_it_is": "Copias de paquetes que npm ya instaló. Los vuelve a descargar si hacen falta.",
+    "how_to_free": "Con el comando de la propia herramienta: `npm cache clean --force`",
+    "guide": "https://diskspaceai.com/es/carpetas/npm-cache"
+  },
+  {
+    "id": "npx-cache",
+    "name": "Paquetes temporales de npx",
+    "path": "~/.npm/_npx",
+    "category": "Cachés de paquetes",
+    "verdict": "safe",
+    "what_it_is": "Herramientas que npx descargó para ejecutarlas una vez.",
+    "how_to_free": "Vaciando el contenido de la carpeta (la carpeta se queda).",
+    "guide": "https://diskspaceai.com/es/carpetas/npx-cache"
+  },
+  {
+    "id": "pnpm-store",
+    "name": "Almacén de pnpm",
+    "path": "~/Library/pnpm/store",
+    "category": "Cachés de paquetes",
+    "verdict": "safe",
+    "what_it_is": "Paquetes compartidos por tus proyectos. «prune» solo quita los que ya no usa ninguno.",
+    "how_to_free": "Con el comando de la propia herramienta: `pnpm store prune`",
+    "guide": "https://diskspaceai.com/es/carpetas/pnpm-store"
+  },
+  {
+    "id": "pnpm-cache",
+    "name": "Caché de pnpm",
+    "path": "~/Library/Caches/pnpm",
+    "category": "Cachés de paquetes",
+    "verdict": "safe",
+    "what_it_is": "Metadatos de paquetes descargados por pnpm.",
+    "how_to_free": "Vaciando el contenido de la carpeta (la carpeta se queda).",
+    "guide": "https://diskspaceai.com/es/carpetas/pnpm-cache"
+  },
+  {
+    "id": "yarn-cache",
+    "name": "Caché de Yarn",
+    "path": "~/Library/Caches/Yarn",
+    "category": "Cachés de paquetes",
+    "verdict": "safe",
+    "what_it_is": "Paquetes descargados por Yarn.",
+    "how_to_free": "Con el comando de la propia herramienta: `yarn cache clean`",
+    "guide": "https://diskspaceai.com/es/carpetas/yarn-cache"
+  },
+  {
+    "id": "bun-cache",
+    "name": "Caché de Bun",
+    "path": "~/.bun/install/cache",
+    "category": "Cachés de paquetes",
+    "verdict": "safe",
+    "what_it_is": "Paquetes descargados por Bun.",
+    "how_to_free": "Con el comando de la propia herramienta: `bun pm cache rm`",
+    "guide": "https://diskspaceai.com/es/carpetas/bun-cache"
+  },
+  {
+    "id": "homebrew-cache",
+    "name": "Caché de Homebrew",
+    "path": "~/Library/Caches/Homebrew",
+    "category": "Cachés de paquetes",
+    "verdict": "safe",
+    "what_it_is": "Instaladores de programas que Homebrew ya instaló.",
+    "how_to_free": "Con el comando de la propia herramienta: `brew cleanup -s`",
+    "guide": "https://diskspaceai.com/es/carpetas/homebrew-cache"
+  },
+  {
+    "id": "gradle-cache",
+    "name": "Caché de Gradle",
+    "path": "~/.gradle/caches",
+    "category": "Cachés de paquetes",
+    "verdict": "safe",
+    "what_it_is": "Dependencias de proyectos Android y Java. La próxima compilación tardará más.",
+    "how_to_free": "Vaciando el contenido de la carpeta (la carpeta se queda).",
+    "guide": "https://diskspaceai.com/es/carpetas/gradle-cache"
+  },
+  {
+    "id": "xcode-derived-data",
+    "name": "Compilaciones de Xcode",
+    "path": "~/Library/Developer/Xcode/DerivedData",
+    "category": "Compilaciones",
+    "verdict": "safe",
+    "what_it_is": "Resultados intermedios de compilar. Xcode los regenera.",
+    "how_to_free": "Vaciando el contenido de la carpeta (la carpeta se queda).",
+    "guide": "https://diskspaceai.com/es/carpetas/xcode-derived-data"
+  },
+  {
+    "id": "xcode-device-support",
+    "name": "Símbolos de iOS de Xcode",
+    "path": "~/Library/Developer/Xcode/iOS DeviceSupport",
+    "category": "Herramientas de desarrollo",
+    "verdict": "safe",
+    "what_it_is": "Datos de depuración de versiones de iOS. Se regeneran al conectar un iPhone.",
+    "how_to_free": "Vaciando el contenido de la carpeta (la carpeta se queda).",
+    "guide": "https://diskspaceai.com/es/carpetas/xcode-device-support"
+  },
+  {
+    "id": "playwright-browsers",
+    "name": "Navegadores de Playwright",
+    "path": "~/Library/Caches/ms-playwright",
+    "category": "Herramientas de desarrollo",
+    "verdict": "safe",
+    "what_it_is": "Navegadores para tests automáticos. Se vuelven a bajar con npx playwright install.",
+    "how_to_free": "Vaciando el contenido de la carpeta (la carpeta se queda).",
+    "guide": "https://diskspaceai.com/es/carpetas/playwright-browsers"
+  },
+  {
+    "id": "puppeteer-browsers",
+    "name": "Navegadores de Puppeteer",
+    "path": "~/.cache/puppeteer",
+    "category": "Herramientas de desarrollo",
+    "verdict": "safe",
+    "what_it_is": "Chrome descargado por Puppeteer. Se vuelve a bajar al usarlo.",
+    "how_to_free": "Vaciando el contenido de la carpeta (la carpeta se queda).",
+    "guide": "https://diskspaceai.com/es/carpetas/puppeteer-browsers"
+  },
+  {
+    "id": "prisma-engines",
+    "name": "Motores de Prisma",
+    "path": "~/.cache/prisma",
+    "category": "Herramientas de desarrollo",
+    "verdict": "safe",
+    "what_it_is": "Binarios de Prisma. Se descargan de nuevo al generar el cliente.",
+    "how_to_free": "Vaciando el contenido de la carpeta (la carpeta se queda).",
+    "guide": "https://diskspaceai.com/es/carpetas/prisma-engines"
+  },
+  {
+    "id": "codex-runtimes",
+    "name": "Entornos de Codex",
+    "path": "~/.cache/codex-runtimes",
+    "category": "Apps y herramientas de IA",
+    "verdict": "safe",
+    "what_it_is": "Entornos de ejecución de Codex. Se descargan de nuevo al abrirlo.",
+    "how_to_free": "Vaciando el contenido de la carpeta (la carpeta se queda).",
+    "guide": "https://diskspaceai.com/es/carpetas/codex-runtimes"
+  },
+  {
+    "id": "app-updaters",
+    "name": "Instaladores de actualizaciones viejas",
+    "path": "~/Library/Caches/*ShipIt, *updater*, *Updater*",
+    "category": "Cachés de apps",
+    "verdict": "safe",
+    "what_it_is": "Actualizaciones de apps que ya se instalaron (Kimi, MiniMax, Electron…).",
+    "how_to_free": "Borrándola (a la papelera).",
+    "guide": "https://diskspaceai.com/es/carpetas/app-updaters"
+  },
+  {
+    "id": "google-updater-cache",
+    "name": "Actualizaciones descargadas de Google",
+    "path": "~/Library/Application Support/Google/GoogleUpdater/crx_cache",
+    "category": "Cachés de apps",
+    "verdict": "safe",
+    "what_it_is": "Paquetes que el actualizador de Chrome ya instaló.",
+    "how_to_free": "Vaciando el contenido de la carpeta (la carpeta se queda).",
+    "guide": "https://diskspaceai.com/es/carpetas/google-updater-cache"
+  },
+  {
+    "id": "chrome-cache",
+    "name": "Caché web de Chrome",
+    "path": "~/Library/Caches/Google/Chrome",
+    "category": "Cachés de apps",
+    "verdict": "safe",
+    "what_it_is": "Páginas e imágenes guardadas por Chrome. Se reconstruye al navegar; mejor con Chrome cerrado.",
+    "how_to_free": "Cierra Google Chrome antes. Vaciando el contenido de la carpeta (la carpeta se queda).",
+    "guide": "https://diskspaceai.com/es/carpetas/chrome-cache"
+  },
+  {
+    "id": "claude-app-cache",
+    "name": "Caché de la app de Claude",
+    "path": "~/Library/Application Support/Claude/Cache, Code Cache, GPUCache",
+    "category": "Apps y herramientas de IA",
+    "verdict": "safe",
+    "what_it_is": "Caché de la interfaz. Se reconstruye; cierra la app antes.",
+    "how_to_free": "Cierra Claude antes. Borrándola (a la papelera).",
+    "guide": "https://diskspaceai.com/es/carpetas/claude-app-cache"
+  },
+  {
+    "id": "claude-code-old-versions",
+    "name": "Versiones antiguas de Claude Code",
+    "path": "~/Library/Application Support/Claude/claude-code/<versiones antiguas>",
+    "category": "Apps y herramientas de IA",
+    "verdict": "safe",
+    "what_it_is": "La app de Claude descarga cada versión nueva de Claude Code; solo usa la más reciente.",
+    "how_to_free": "Borrándola (a la papelera).",
+    "guide": "https://diskspaceai.com/es/carpetas/claude-code-old-versions"
+  },
+  {
+    "id": "codex-tmp",
+    "name": "Temporales de Codex",
+    "path": "~/.codex/.tmp",
+    "category": "Apps y herramientas de IA",
+    "verdict": "safe",
+    "what_it_is": "Archivos temporales de Codex.",
+    "how_to_free": "Vaciando el contenido de la carpeta (la carpeta se queda).",
+    "guide": "https://diskspaceai.com/es/carpetas/codex-tmp"
+  },
+  {
+    "id": "claude-mem-logs",
+    "name": "Registros de claude-mem",
+    "path": "~/.claude-mem/logs",
+    "category": "Apps y herramientas de IA",
+    "verdict": "safe",
+    "what_it_is": "Registros del plugin de memoria claude-mem.",
+    "how_to_free": "Vaciando el contenido de la carpeta (la carpeta se queda).",
+    "guide": "https://diskspaceai.com/es/carpetas/claude-mem-logs"
+  },
+  {
+    "id": "gradle-wrapper",
+    "name": "Versiones de Gradle descargadas",
+    "path": "~/.gradle/wrapper/dists",
+    "category": "Cachés de paquetes",
+    "verdict": "safe",
+    "what_it_is": "Cada proyecto descarga la versión de Gradle que pide. Se vuelve a bajar al compilar.",
+    "how_to_free": "Vaciando el contenido de la carpeta (la carpeta se queda).",
+    "guide": "https://diskspaceai.com/es/carpetas/gradle-wrapper"
+  },
+  {
+    "id": "puccinialin",
+    "name": "Rust temporal para paquetes de Python",
+    "path": "~/Library/Caches/puccinialin",
+    "category": "Cachés de paquetes",
+    "verdict": "safe",
+    "what_it_is": "Rust que se descarga solo para compilar algunos paquetes de Python. Se vuelve a bajar si hace falta.",
+    "how_to_free": "Borrándola (a la papelera).",
+    "guide": "https://diskspaceai.com/es/carpetas/puccinialin"
+  },
+  {
+    "id": "android-studio-cache",
+    "name": "Caché de Android Studio",
+    "path": "~/Library/Caches/Google/AndroidStudio*",
+    "category": "Herramientas de desarrollo",
+    "verdict": "safe",
+    "what_it_is": "Índices y cachés de Android Studio. Se regeneran al abrirlo.",
+    "how_to_free": "Borrándola (a la papelera).",
+    "guide": "https://diskspaceai.com/es/carpetas/android-studio-cache"
+  },
+  {
+    "id": "docker-install-leftover",
+    "name": "Instalación de Docker a medias",
+    "path": "~/Library/Application Support/com.docker.install/in_progress",
+    "category": "Cachés de apps",
+    "verdict": "safe",
+    "what_it_is": "Restos de una instalación o actualización de Docker Desktop que ya terminó; cierra Docker antes.",
+    "how_to_free": "Cierra Docker Desktop antes. Borrándola (a la papelera).",
+    "guide": "https://diskspaceai.com/es/carpetas/docker-install-leftover"
+  },
+  {
+    "id": "kimi-cache",
+    "name": "Caché de Kimi",
+    "path": "~/Library/Application Support/kimi-desktop/Cache, Code Cache, GPUCache, DawnGraphiteCache, DawnWebGPUCache",
+    "category": "Apps y herramientas de IA",
+    "verdict": "safe",
+    "what_it_is": "Caché de la interfaz de Kimi. Se reconstruye; cierra la app antes.",
+    "how_to_free": "Cierra Kimi antes. Borrándola (a la papelera).",
+    "guide": "https://diskspaceai.com/es/carpetas/kimi-cache"
+  },
+  {
+    "id": "user-logs",
+    "name": "Registros de apps",
+    "path": "~/Library/Logs",
+    "category": "Cachés de apps",
+    "verdict": "safe",
+    "what_it_is": "Archivos de registro. Solo sirven para diagnosticar errores pasados.",
+    "how_to_free": "Vaciando el contenido de la carpeta (la carpeta se queda).",
+    "guide": "https://diskspaceai.com/es/carpetas/user-logs"
+  },
+  {
+    "id": "docker-disk",
+    "name": "Disco virtual de Docker",
+    "path": "~/Library/Containers/com.docker.docker/Data/vms/0/data/Docker.raw",
+    "category": "Máquinas virtuales y contenedores",
+    "verdict": "review",
+    "what_it_is": "Imágenes, contenedores y volúmenes. Los volúmenes pueden guardar bases de datos.",
+    "how_to_free": "Con el comando de la propia herramienta: `docker system prune -f`",
+    "guide": "https://diskspaceai.com/es/carpetas/docker-disk"
+  },
+  {
+    "id": "orbstack",
+    "name": "Datos de OrbStack",
+    "path": "~/.orbstack",
+    "category": "Máquinas virtuales y contenedores",
+    "verdict": "review",
+    "what_it_is": "Máquinas y contenedores de OrbStack.",
+    "how_to_free": "Con el comando de la propia herramienta: `docker system prune -f`",
+    "guide": "https://diskspaceai.com/es/carpetas/orbstack"
+  },
+  {
+    "id": "claude-vm",
+    "name": "Máquina virtual de Claude",
+    "path": "~/Library/Application Support/Claude/vm_bundles",
+    "category": "Apps y herramientas de IA",
+    "verdict": "review",
+    "what_it_is": "La usa la app de Claude para ejecutar tareas. Se vuelve a descargar; cierra la app antes.",
+    "how_to_free": "Cierra Claude antes. Borrándola (a la papelera).",
+    "guide": "https://diskspaceai.com/es/carpetas/claude-vm"
+  },
+  {
+    "id": "ios-simulators",
+    "name": "Simuladores de iPhone",
+    "path": "~/Library/Developer/CoreSimulator/Devices",
+    "category": "Herramientas de desarrollo",
+    "verdict": "review",
+    "what_it_is": "Cada simulador guarda las apps y datos de tus pruebas. Xcode los vuelve a crear.",
+    "how_to_free": "Bórralos uno a uno en DiskSpace AI o en Xcode → Devices and Simulators.",
+    "guide": "https://diskspaceai.com/es/carpetas/ios-simulators"
+  },
+  {
+    "id": "xcode-archives",
+    "name": "Archivos de Xcode",
+    "path": "~/Library/Developer/Xcode/Archives",
+    "category": "Herramientas de desarrollo",
+    "verdict": "review",
+    "what_it_is": "Versiones publicadas de tus apps. Sirven para leer informes de fallos.",
+    "how_to_free": "Borrar las antiguas desde Xcode → Organizer.",
+    "guide": "https://diskspaceai.com/es/carpetas/xcode-archives"
+  },
+  {
+    "id": "android-sdk",
+    "name": "SDK de Android",
+    "path": "~/Library/Android/sdk",
+    "category": "Herramientas de desarrollo",
+    "verdict": "review",
+    "what_it_is": "Plataformas y herramientas de Android.",
+    "how_to_free": "Quitar las versiones que no uses desde Android Studio → SDK Manager.",
+    "guide": "https://diskspaceai.com/es/carpetas/android-sdk"
+  },
+  {
+    "id": "android-emulators",
+    "name": "Emuladores de Android",
+    "path": "~/.android/avd",
+    "category": "Herramientas de desarrollo",
+    "verdict": "review",
+    "what_it_is": "Cada emulador guarda su propio disco.",
+    "how_to_free": "Borrar los que no uses desde Android Studio → Device Manager.",
+    "guide": "https://diskspaceai.com/es/carpetas/android-emulators"
+  },
+  {
+    "id": "npm-global",
+    "name": "Paquetes globales de npm",
+    "path": "~/.npm-global",
+    "category": "Herramientas de desarrollo",
+    "verdict": "review",
+    "what_it_is": "Herramientas de terminal instaladas con npm install -g. Mira cuáles tienes con npm ls -g --depth=0.",
+    "how_to_free": "Con el comando de la propia herramienta: `npm uninstall -g `",
+    "guide": "https://diskspaceai.com/es/carpetas/npm-global"
+  },
+  {
+    "id": "huggingface",
+    "name": "Modelos de Hugging Face",
+    "path": "~/.cache/huggingface",
+    "category": "Modelos de IA",
+    "verdict": "review",
+    "what_it_is": "Modelos de IA descargados. Se pueden volver a bajar, pero pesan mucho.",
+    "how_to_free": "huggingface-cli delete-cache (te deja elegir qué modelos borrar).",
+    "guide": "https://diskspaceai.com/es/carpetas/huggingface"
+  },
+  {
+    "id": "ollama",
+    "name": "Modelos de Ollama",
+    "path": "~/.ollama/models",
+    "category": "Modelos de IA",
+    "verdict": "review",
+    "what_it_is": "Modelos de IA locales. Mira cuáles usas con ollama list.",
+    "how_to_free": "Con el comando de la propia herramienta: `ollama rm `",
+    "guide": "https://diskspaceai.com/es/carpetas/ollama"
+  },
+  {
+    "id": "lmstudio",
+    "name": "Modelos de LM Studio",
+    "path": "~/.lmstudio/models",
+    "category": "Modelos de IA",
+    "verdict": "review",
+    "what_it_is": "Modelos de IA locales descargados desde LM Studio.",
+    "how_to_free": "Borrar los que no uses desde LM Studio → My Models.",
+    "guide": "https://diskspaceai.com/es/carpetas/lmstudio"
+  },
+  {
+    "id": "whisper",
+    "name": "Modelos de Whisper",
+    "path": "~/.cache/whisper",
+    "category": "Modelos de IA",
+    "verdict": "review",
+    "what_it_is": "Modelos de transcripción de voz. Se descargan al volver a usarlos.",
+    "how_to_free": "Vaciando el contenido de la carpeta (la carpeta se queda).",
+    "guide": "https://diskspaceai.com/es/carpetas/whisper"
+  },
+  {
+    "id": "torch",
+    "name": "Modelos de PyTorch",
+    "path": "~/.cache/torch",
+    "category": "Modelos de IA",
+    "verdict": "review",
+    "what_it_is": "Pesos de modelos descargados por PyTorch.",
+    "how_to_free": "Vaciando el contenido de la carpeta (la carpeta se queda).",
+    "guide": "https://diskspaceai.com/es/carpetas/torch"
+  },
+  {
+    "id": "chroma",
+    "name": "Modelos de Chroma",
+    "path": "~/.cache/chroma",
+    "category": "Modelos de IA",
+    "verdict": "review",
+    "what_it_is": "Modelos de embeddings que descarga Chroma.",
+    "how_to_free": "Vaciando el contenido de la carpeta (la carpeta se queda).",
+    "guide": "https://diskspaceai.com/es/carpetas/chroma"
+  },
+  {
+    "id": "chrome-ai-model",
+    "name": "Modelo de IA de Chrome",
+    "path": "~/Library/Application Support/Google/Chrome/OptGuideOnDeviceModel",
+    "category": "Modelos de IA",
+    "verdict": "review",
+    "what_it_is": "Gemini Nano, que Chrome descarga solo. Vuelve si no lo desactivas en chrome://flags.",
+    "how_to_free": "Cierra Google Chrome antes. Borrándola (a la papelera).",
+    "guide": "https://diskspaceai.com/es/carpetas/chrome-ai-model"
+  },
+  {
+    "id": "ios-backups",
+    "name": "Copias de seguridad del iPhone",
+    "path": "~/Library/Application Support/MobileSync/Backup",
+    "category": "Tus datos",
+    "verdict": "review",
+    "what_it_is": "Copias locales de tus dispositivos.",
+    "how_to_free": "Gestionar desde Finder → tu iPhone → Gestionar copias.",
+    "guide": "https://diskspaceai.com/es/carpetas/ios-backups"
+  },
+  {
+    "id": "downloaded-installers",
+    "name": "Instaladores en Descargas",
+    "path": "~/Downloads/*.dmg, *.pkg, *.zip, *.iso, *.xip",
+    "category": "Descargas",
+    "verdict": "review",
+    "what_it_is": "Instaladores y archivos comprimidos descargados. Normalmente ya no hacen falta.",
+    "how_to_free": "Borrándola (a la papelera).",
+    "guide": "https://diskspaceai.com/es/carpetas/downloaded-installers"
+  },
+  {
+    "id": "trash",
+    "name": "Papelera",
+    "path": "~/.Trash",
+    "category": "Tus datos",
+    "verdict": "review",
+    "what_it_is": "Archivos que ya borraste.",
+    "how_to_free": "Vaciar la papelera desde el Finder.",
+    "guide": "https://diskspaceai.com/es/carpetas/trash"
+  },
+  {
+    "id": "claude-code-plugins",
+    "name": "Plugins de Claude Code",
+    "path": "~/.claude/plugins/cache",
+    "category": "Apps y herramientas de IA",
+    "verdict": "review",
+    "what_it_is": "Plugins instalados en Claude Code. Si los borras, hay que reinstalarlos.",
+    "how_to_free": "Desinstala los que no uses con /plugin en Claude Code.",
+    "guide": "https://diskspaceai.com/es/carpetas/claude-code-plugins"
+  },
+  {
+    "id": "claude-mem-index",
+    "name": "Índice de búsqueda de claude-mem",
+    "path": "~/.claude-mem/chroma",
+    "category": "Apps y herramientas de IA",
+    "verdict": "review",
+    "what_it_is": "Índice para buscar en la memoria de claude-mem; se reconstruye desde su base de datos.",
+    "how_to_free": "Borrándola (a la papelera).",
+    "guide": "https://diskspaceai.com/es/carpetas/claude-mem-index"
+  },
+  {
+    "id": "aerial-wallpapers",
+    "name": "Fondos de pantalla animados",
+    "path": "~/Library/Application Support/com.apple.wallpaper/aerials/videos",
+    "category": "Cachés de apps",
+    "verdict": "review",
+    "what_it_is": "Vídeos de los fondos y salvapantallas aéreos de macOS. Se vuelve a descargar el que elijas.",
+    "how_to_free": "Vaciando el contenido de la carpeta (la carpeta se queda).",
+    "guide": "https://diskspaceai.com/es/carpetas/aerial-wallpapers"
+  },
+  {
+    "id": "uv-python",
+    "name": "Versiones de Python de uv",
+    "path": "~/.local/share/uv/python",
+    "category": "Herramientas de desarrollo",
+    "verdict": "review",
+    "what_it_is": "Pythons instalados por uv. Los entornos .venv de tus proyectos dependen de ellos. Mira cuáles tienes con uv python list.",
+    "how_to_free": "Con el comando de la propia herramienta: `uv python uninstall `",
+    "guide": "https://diskspaceai.com/es/carpetas/uv-python"
+  },
+  {
+    "id": "minimax-agents",
+    "name": "Agentes de MiniMax",
+    "path": "~/.minimax/agents",
+    "category": "Apps y herramientas de IA",
+    "verdict": "review",
+    "what_it_is": "Datos y configuración de los agentes de MiniMax Agent.",
+    "how_to_free": "Revísalo desde MiniMax Agent.",
+    "guide": "https://diskspaceai.com/es/carpetas/minimax-agents"
+  },
+  {
+    "id": "chrome-profiles",
+    "name": "Perfiles de Chrome",
+    "path": "~/Library/Application Support/Google/Chrome/Default, Profile *",
+    "category": "Tus datos",
+    "verdict": "keep",
+    "what_it_is": "Historial, sesiones y extensiones.",
+    "how_to_free": "Son tus datos de navegación.",
+    "guide": "https://diskspaceai.com/es/carpetas/chrome-profiles"
+  },
+  {
+    "id": "photos-library",
+    "name": "Fototeca",
+    "path": "~/Pictures/*.photoslibrary",
+    "category": "Tus datos",
+    "verdict": "keep",
+    "what_it_is": "Tus fotos y vídeos.",
+    "how_to_free": "Fotos → Ajustes → iCloud → Optimizar almacenamiento.",
+    "guide": "https://diskspaceai.com/es/carpetas/photos-library"
+  },
+  {
+    "id": "claude-code-current",
+    "name": "Claude Code (versión en uso)",
+    "path": "~/Library/Application Support/Claude/claude-code/<versión en uso>",
+    "category": "Apps y herramientas de IA",
+    "verdict": "keep",
+    "what_it_is": "La versión de Claude Code que usa la app de Claude ahora mismo.",
+    "how_to_free": "Es la versión en uso.",
+    "guide": "https://diskspaceai.com/es/carpetas/claude-code-current"
+  },
+  {
+    "id": "claude-code-history",
+    "name": "Historial de Claude Code",
+    "path": "~/.claude/projects",
+    "category": "Tus datos",
+    "verdict": "keep",
+    "what_it_is": "Tus conversaciones con Claude Code, por proyecto.",
+    "how_to_free": "Son tus conversaciones.",
+    "guide": "https://diskspaceai.com/es/carpetas/claude-code-history"
+  },
+  {
+    "id": "codex-sessions",
+    "name": "Historial de Codex",
+    "path": "~/.codex/sessions",
+    "category": "Tus datos",
+    "verdict": "keep",
+    "what_it_is": "Tus sesiones de Codex.",
+    "how_to_free": "Son tus sesiones.",
+    "guide": "https://diskspaceai.com/es/carpetas/codex-sessions"
+  },
+  {
+    "id": "claude-mem-memory",
+    "name": "Memoria de claude-mem",
+    "path": "~/.claude-mem/claude-mem.db*",
+    "category": "Tus datos",
+    "verdict": "keep",
+    "what_it_is": "La base de datos con la memoria que guarda el plugin claude-mem.",
+    "how_to_free": "Es tu memoria guardada.",
+    "guide": "https://diskspaceai.com/es/carpetas/claude-mem-memory"
+  },
+  {
+    "id": "cache-slack",
+    "name": "Caché de Slack",
+    "path": "~/Library/Application Support/Slack/Cache, Code Cache, GPUCache",
+    "category": "Cachés de apps",
+    "verdict": "safe",
+    "what_it_is": "Caché de la interfaz de Slack: páginas, imágenes y código ya cargados. Se reconstruye sola al abrir la app; tus mensajes, sesiones y ajustes no están aquí.",
+    "how_to_free": "Cierra Slack antes. Borrándola (a la papelera).",
+    "guide": "https://diskspaceai.com/es/carpetas/cache-slack"
+  },
+  {
+    "id": "cache-discord",
+    "name": "Caché de Discord",
+    "path": "~/Library/Application Support/discord/Cache, Code Cache, GPUCache",
+    "category": "Cachés de apps",
+    "verdict": "safe",
+    "what_it_is": "Caché de la interfaz de Discord: páginas, imágenes y código ya cargados. Se reconstruye sola al abrir la app; tus mensajes, sesiones y ajustes no están aquí.",
+    "how_to_free": "Cierra Discord antes. Borrándola (a la papelera).",
+    "guide": "https://diskspaceai.com/es/carpetas/cache-discord"
+  },
+  {
+    "id": "cache-vscode",
+    "name": "Caché de Visual Studio Code",
+    "path": "~/Library/Application Support/Code/Cache, Code Cache, GPUCache",
+    "category": "Cachés de apps",
+    "verdict": "safe",
+    "what_it_is": "Caché de la interfaz de Visual Studio Code: páginas, imágenes y código ya cargados. Se reconstruye sola al abrir la app; tus mensajes, sesiones y ajustes no están aquí.",
+    "how_to_free": "Cierra Visual Studio Code antes. Borrándola (a la papelera).",
+    "guide": "https://diskspaceai.com/es/carpetas/cache-vscode"
+  },
+  {
+    "id": "cache-cursor",
+    "name": "Caché de Cursor",
+    "path": "~/Library/Application Support/Cursor/Cache, Code Cache, GPUCache",
+    "category": "Cachés de apps",
+    "verdict": "safe",
+    "what_it_is": "Caché de la interfaz de Cursor: páginas, imágenes y código ya cargados. Se reconstruye sola al abrir la app; tus mensajes, sesiones y ajustes no están aquí.",
+    "how_to_free": "Cierra Cursor antes. Borrándola (a la papelera).",
+    "guide": "https://diskspaceai.com/es/carpetas/cache-cursor"
+  },
+  {
+    "id": "cache-notion",
+    "name": "Caché de Notion",
+    "path": "~/Library/Application Support/Notion/Cache, Code Cache, GPUCache",
+    "category": "Cachés de apps",
+    "verdict": "safe",
+    "what_it_is": "Caché de la interfaz de Notion: páginas, imágenes y código ya cargados. Se reconstruye sola al abrir la app; tus mensajes, sesiones y ajustes no están aquí.",
+    "how_to_free": "Cierra Notion antes. Borrándola (a la papelera).",
+    "guide": "https://diskspaceai.com/es/carpetas/cache-notion"
+  },
+  {
+    "id": "cache-figma",
+    "name": "Caché de Figma",
+    "path": "~/Library/Application Support/Figma/Cache, Code Cache, GPUCache",
+    "category": "Cachés de apps",
+    "verdict": "safe",
+    "what_it_is": "Caché de la interfaz de Figma: páginas, imágenes y código ya cargados. Se reconstruye sola al abrir la app; tus mensajes, sesiones y ajustes no están aquí.",
+    "how_to_free": "Cierra Figma antes. Borrándola (a la papelera).",
+    "guide": "https://diskspaceai.com/es/carpetas/cache-figma"
+  },
+  {
+    "id": "cache-obsidian",
+    "name": "Caché de Obsidian",
+    "path": "~/Library/Application Support/obsidian/Cache, Code Cache, GPUCache",
+    "category": "Cachés de apps",
+    "verdict": "safe",
+    "what_it_is": "Caché de la interfaz de Obsidian: páginas, imágenes y código ya cargados. Se reconstruye sola al abrir la app; tus mensajes, sesiones y ajustes no están aquí.",
+    "how_to_free": "Cierra Obsidian antes. Borrándola (a la papelera).",
+    "guide": "https://diskspaceai.com/es/carpetas/cache-obsidian"
+  },
+  {
+    "id": "cache-postman",
+    "name": "Caché de Postman",
+    "path": "~/Library/Application Support/Postman/Cache, Code Cache, GPUCache",
+    "category": "Cachés de apps",
+    "verdict": "safe",
+    "what_it_is": "Caché de la interfaz de Postman: páginas, imágenes y código ya cargados. Se reconstruye sola al abrir la app; tus mensajes, sesiones y ajustes no están aquí.",
+    "how_to_free": "Cierra Postman antes. Borrándola (a la papelera).",
+    "guide": "https://diskspaceai.com/es/carpetas/cache-postman"
+  },
+  {
+    "id": "cache-linear",
+    "name": "Caché de Linear",
+    "path": "~/Library/Application Support/Linear/Cache, Code Cache, GPUCache",
+    "category": "Cachés de apps",
+    "verdict": "safe",
+    "what_it_is": "Caché de la interfaz de Linear: páginas, imágenes y código ya cargados. Se reconstruye sola al abrir la app; tus mensajes, sesiones y ajustes no están aquí.",
+    "how_to_free": "Cierra Linear antes. Borrándola (a la papelera).",
+    "guide": "https://diskspaceai.com/es/carpetas/cache-linear"
+  },
+  {
+    "id": "cache-signal",
+    "name": "Caché de Signal",
+    "path": "~/Library/Application Support/Signal/Cache, Code Cache, GPUCache",
+    "category": "Cachés de apps",
+    "verdict": "safe",
+    "what_it_is": "Caché de la interfaz de Signal: páginas, imágenes y código ya cargados. Se reconstruye sola al abrir la app; tus mensajes, sesiones y ajustes no están aquí.",
+    "how_to_free": "Cierra Signal antes. Borrándola (a la papelera).",
+    "guide": "https://diskspaceai.com/es/carpetas/cache-signal"
+  }
+]

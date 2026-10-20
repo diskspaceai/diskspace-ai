@@ -1,0 +1,682 @@
+[
+  {
+    "id": "uv-cache",
+    "name": "uv cache (Python)",
+    "path": "~/.cache/uv",
+    "category": "Package caches",
+    "verdict": "safe",
+    "what_it_is": "Python packages uv already downloaded. It fetches them again when needed.",
+    "how_to_free": "With the tool's own command: `uv cache clean`",
+    "guide": "https://diskspaceai.com/folders/uv-cache"
+  },
+  {
+    "id": "pip-cache",
+    "name": "pip cache",
+    "path": "~/Library/Caches/pip",
+    "category": "Package caches",
+    "verdict": "safe",
+    "what_it_is": "Python packages downloaded by pip.",
+    "how_to_free": "With the tool's own command: `pip cache purge`",
+    "guide": "https://diskspaceai.com/folders/pip-cache"
+  },
+  {
+    "id": "npm-cache",
+    "name": "npm cache",
+    "path": "~/.npm/_cacache",
+    "category": "Package caches",
+    "verdict": "safe",
+    "what_it_is": "Copies of packages npm already installed. It downloads them again if needed.",
+    "how_to_free": "With the tool's own command: `npm cache clean --force`",
+    "guide": "https://diskspaceai.com/folders/npm-cache"
+  },
+  {
+    "id": "npx-cache",
+    "name": "npx temporary packages",
+    "path": "~/.npm/_npx",
+    "category": "Package caches",
+    "verdict": "safe",
+    "what_it_is": "Tools npx downloaded to run once.",
+    "how_to_free": "By emptying the folder's contents (the folder stays).",
+    "guide": "https://diskspaceai.com/folders/npx-cache"
+  },
+  {
+    "id": "pnpm-store",
+    "name": "pnpm store",
+    "path": "~/Library/pnpm/store",
+    "category": "Package caches",
+    "verdict": "safe",
+    "what_it_is": "Packages shared by your projects. “prune” only removes the ones no project uses.",
+    "how_to_free": "With the tool's own command: `pnpm store prune`",
+    "guide": "https://diskspaceai.com/folders/pnpm-store"
+  },
+  {
+    "id": "pnpm-cache",
+    "name": "pnpm cache",
+    "path": "~/Library/Caches/pnpm",
+    "category": "Package caches",
+    "verdict": "safe",
+    "what_it_is": "Package metadata downloaded by pnpm.",
+    "how_to_free": "By emptying the folder's contents (the folder stays).",
+    "guide": "https://diskspaceai.com/folders/pnpm-cache"
+  },
+  {
+    "id": "yarn-cache",
+    "name": "Yarn cache",
+    "path": "~/Library/Caches/Yarn",
+    "category": "Package caches",
+    "verdict": "safe",
+    "what_it_is": "Packages downloaded by Yarn.",
+    "how_to_free": "With the tool's own command: `yarn cache clean`",
+    "guide": "https://diskspaceai.com/folders/yarn-cache"
+  },
+  {
+    "id": "bun-cache",
+    "name": "Bun cache",
+    "path": "~/.bun/install/cache",
+    "category": "Package caches",
+    "verdict": "safe",
+    "what_it_is": "Packages downloaded by Bun.",
+    "how_to_free": "With the tool's own command: `bun pm cache rm`",
+    "guide": "https://diskspaceai.com/folders/bun-cache"
+  },
+  {
+    "id": "homebrew-cache",
+    "name": "Homebrew cache",
+    "path": "~/Library/Caches/Homebrew",
+    "category": "Package caches",
+    "verdict": "safe",
+    "what_it_is": "Installers for programs Homebrew already installed.",
+    "how_to_free": "With the tool's own command: `brew cleanup -s`",
+    "guide": "https://diskspaceai.com/folders/homebrew-cache"
+  },
+  {
+    "id": "gradle-cache",
+    "name": "Gradle cache",
+    "path": "~/.gradle/caches",
+    "category": "Package caches",
+    "verdict": "safe",
+    "what_it_is": "Dependencies for Android and Java projects. The next build will take longer.",
+    "how_to_free": "By emptying the folder's contents (the folder stays).",
+    "guide": "https://diskspaceai.com/folders/gradle-cache"
+  },
+  {
+    "id": "xcode-derived-data",
+    "name": "Xcode build data",
+    "path": "~/Library/Developer/Xcode/DerivedData",
+    "category": "Build output",
+    "verdict": "safe",
+    "what_it_is": "Intermediate build results. Xcode recreates them.",
+    "how_to_free": "By emptying the folder's contents (the folder stays).",
+    "guide": "https://diskspaceai.com/folders/xcode-derived-data"
+  },
+  {
+    "id": "xcode-device-support",
+    "name": "Xcode iOS symbols",
+    "path": "~/Library/Developer/Xcode/iOS DeviceSupport",
+    "category": "Developer tools",
+    "verdict": "safe",
+    "what_it_is": "Debug data for iOS versions. Recreated when you connect an iPhone.",
+    "how_to_free": "By emptying the folder's contents (the folder stays).",
+    "guide": "https://diskspaceai.com/folders/xcode-device-support"
+  },
+  {
+    "id": "playwright-browsers",
+    "name": "Playwright browsers",
+    "path": "~/Library/Caches/ms-playwright",
+    "category": "Developer tools",
+    "verdict": "safe",
+    "what_it_is": "Browsers for automated tests. Downloaded again with npx playwright install.",
+    "how_to_free": "By emptying the folder's contents (the folder stays).",
+    "guide": "https://diskspaceai.com/folders/playwright-browsers"
+  },
+  {
+    "id": "puppeteer-browsers",
+    "name": "Puppeteer browsers",
+    "path": "~/.cache/puppeteer",
+    "category": "Developer tools",
+    "verdict": "safe",
+    "what_it_is": "Chrome downloaded by Puppeteer. Downloaded again when used.",
+    "how_to_free": "By emptying the folder's contents (the folder stays).",
+    "guide": "https://diskspaceai.com/folders/puppeteer-browsers"
+  },
+  {
+    "id": "prisma-engines",
+    "name": "Prisma engines",
+    "path": "~/.cache/prisma",
+    "category": "Developer tools",
+    "verdict": "safe",
+    "what_it_is": "Prisma binaries. Downloaded again when you generate the client.",
+    "how_to_free": "By emptying the folder's contents (the folder stays).",
+    "guide": "https://diskspaceai.com/folders/prisma-engines"
+  },
+  {
+    "id": "codex-runtimes",
+    "name": "Codex runtimes",
+    "path": "~/.cache/codex-runtimes",
+    "category": "AI apps and tools",
+    "verdict": "safe",
+    "what_it_is": "Codex runtime environments. Downloaded again when you open it.",
+    "how_to_free": "By emptying the folder's contents (the folder stays).",
+    "guide": "https://diskspaceai.com/folders/codex-runtimes"
+  },
+  {
+    "id": "app-updaters",
+    "name": "Old update installers",
+    "path": "~/Library/Caches/*ShipIt, *updater*, *Updater*",
+    "category": "App caches",
+    "verdict": "safe",
+    "what_it_is": "App updates that were already installed (Kimi, MiniMax, Electron…).",
+    "how_to_free": "By deleting it (to the Trash).",
+    "guide": "https://diskspaceai.com/folders/app-updaters"
+  },
+  {
+    "id": "google-updater-cache",
+    "name": "Downloaded Google updates",
+    "path": "~/Library/Application Support/Google/GoogleUpdater/crx_cache",
+    "category": "App caches",
+    "verdict": "safe",
+    "what_it_is": "Packages the Chrome updater already installed.",
+    "how_to_free": "By emptying the folder's contents (the folder stays).",
+    "guide": "https://diskspaceai.com/folders/google-updater-cache"
+  },
+  {
+    "id": "chrome-cache",
+    "name": "Chrome web cache",
+    "path": "~/Library/Caches/Google/Chrome",
+    "category": "App caches",
+    "verdict": "safe",
+    "what_it_is": "Pages and images saved by Chrome. Rebuilt as you browse; best with Chrome closed.",
+    "how_to_free": "Quit Google Chrome first. By emptying the folder's contents (the folder stays).",
+    "guide": "https://diskspaceai.com/folders/chrome-cache"
+  },
+  {
+    "id": "claude-app-cache",
+    "name": "Claude app cache",
+    "path": "~/Library/Application Support/Claude/Cache, Code Cache, GPUCache",
+    "category": "AI apps and tools",
+    "verdict": "safe",
+    "what_it_is": "Interface cache. Rebuilt automatically; quit the app first.",
+    "how_to_free": "Quit Claude first. By deleting it (to the Trash).",
+    "guide": "https://diskspaceai.com/folders/claude-app-cache"
+  },
+  {
+    "id": "claude-code-old-versions",
+    "name": "Old Claude Code versions",
+    "path": "~/Library/Application Support/Claude/claude-code/<old versions>",
+    "category": "AI apps and tools",
+    "verdict": "safe",
+    "what_it_is": "The Claude app downloads every new Claude Code version but only uses the latest.",
+    "how_to_free": "By deleting it (to the Trash).",
+    "guide": "https://diskspaceai.com/folders/claude-code-old-versions"
+  },
+  {
+    "id": "codex-tmp",
+    "name": "Codex temporary files",
+    "path": "~/.codex/.tmp",
+    "category": "AI apps and tools",
+    "verdict": "safe",
+    "what_it_is": "Temporary files from Codex.",
+    "how_to_free": "By emptying the folder's contents (the folder stays).",
+    "guide": "https://diskspaceai.com/folders/codex-tmp"
+  },
+  {
+    "id": "claude-mem-logs",
+    "name": "claude-mem logs",
+    "path": "~/.claude-mem/logs",
+    "category": "AI apps and tools",
+    "verdict": "safe",
+    "what_it_is": "Logs from the claude-mem memory plugin.",
+    "how_to_free": "By emptying the folder's contents (the folder stays).",
+    "guide": "https://diskspaceai.com/folders/claude-mem-logs"
+  },
+  {
+    "id": "gradle-wrapper",
+    "name": "Downloaded Gradle versions",
+    "path": "~/.gradle/wrapper/dists",
+    "category": "Package caches",
+    "verdict": "safe",
+    "what_it_is": "Each project downloads the Gradle version it asks for. Downloaded again when you build.",
+    "how_to_free": "By emptying the folder's contents (the folder stays).",
+    "guide": "https://diskspaceai.com/folders/gradle-wrapper"
+  },
+  {
+    "id": "puccinialin",
+    "name": "Temporary Rust for Python packages",
+    "path": "~/Library/Caches/puccinialin",
+    "category": "Package caches",
+    "verdict": "safe",
+    "what_it_is": "Rust downloaded only to build some Python packages. Downloaded again if needed.",
+    "how_to_free": "By deleting it (to the Trash).",
+    "guide": "https://diskspaceai.com/folders/puccinialin"
+  },
+  {
+    "id": "android-studio-cache",
+    "name": "Android Studio cache",
+    "path": "~/Library/Caches/Google/AndroidStudio*",
+    "category": "Developer tools",
+    "verdict": "safe",
+    "what_it_is": "Android Studio indexes and caches. Recreated when you open it.",
+    "how_to_free": "By deleting it (to the Trash).",
+    "guide": "https://diskspaceai.com/folders/android-studio-cache"
+  },
+  {
+    "id": "docker-install-leftover",
+    "name": "Unfinished Docker install",
+    "path": "~/Library/Application Support/com.docker.install/in_progress",
+    "category": "App caches",
+    "verdict": "safe",
+    "what_it_is": "Leftovers from a Docker Desktop install or update that already finished; quit Docker first.",
+    "how_to_free": "Quit Docker Desktop first. By deleting it (to the Trash).",
+    "guide": "https://diskspaceai.com/folders/docker-install-leftover"
+  },
+  {
+    "id": "kimi-cache",
+    "name": "Kimi cache",
+    "path": "~/Library/Application Support/kimi-desktop/Cache, Code Cache, GPUCache, DawnGraphiteCache, DawnWebGPUCache",
+    "category": "AI apps and tools",
+    "verdict": "safe",
+    "what_it_is": "Kimi's interface cache. Rebuilt automatically; quit the app first.",
+    "how_to_free": "Quit Kimi first. By deleting it (to the Trash).",
+    "guide": "https://diskspaceai.com/folders/kimi-cache"
+  },
+  {
+    "id": "user-logs",
+    "name": "App logs",
+    "path": "~/Library/Logs",
+    "category": "App caches",
+    "verdict": "safe",
+    "what_it_is": "Log files. Only useful for diagnosing past errors.",
+    "how_to_free": "By emptying the folder's contents (the folder stays).",
+    "guide": "https://diskspaceai.com/folders/user-logs"
+  },
+  {
+    "id": "docker-disk",
+    "name": "Docker virtual disk",
+    "path": "~/Library/Containers/com.docker.docker/Data/vms/0/data/Docker.raw",
+    "category": "Virtual machines and containers",
+    "verdict": "review",
+    "what_it_is": "Images, containers and volumes. Volumes can hold databases.",
+    "how_to_free": "With the tool's own command: `docker system prune -f`",
+    "guide": "https://diskspaceai.com/folders/docker-disk"
+  },
+  {
+    "id": "orbstack",
+    "name": "OrbStack data",
+    "path": "~/.orbstack",
+    "category": "Virtual machines and containers",
+    "verdict": "review",
+    "what_it_is": "OrbStack machines and containers.",
+    "how_to_free": "With the tool's own command: `docker system prune -f`",
+    "guide": "https://diskspaceai.com/folders/orbstack"
+  },
+  {
+    "id": "claude-vm",
+    "name": "Claude virtual machine",
+    "path": "~/Library/Application Support/Claude/vm_bundles",
+    "category": "AI apps and tools",
+    "verdict": "review",
+    "what_it_is": "Used by the Claude app to run tasks. Downloaded again; quit the app first.",
+    "how_to_free": "Quit Claude first. By deleting it (to the Trash).",
+    "guide": "https://diskspaceai.com/folders/claude-vm"
+  },
+  {
+    "id": "ios-simulators",
+    "name": "iPhone simulators",
+    "path": "~/Library/Developer/CoreSimulator/Devices",
+    "category": "Developer tools",
+    "verdict": "review",
+    "what_it_is": "Each simulator keeps the apps and data from your tests. Xcode creates them again.",
+    "how_to_free": "Delete them one by one in DiskSpace AI or in Xcode → Devices and Simulators.",
+    "guide": "https://diskspaceai.com/folders/ios-simulators"
+  },
+  {
+    "id": "xcode-archives",
+    "name": "Xcode archives",
+    "path": "~/Library/Developer/Xcode/Archives",
+    "category": "Developer tools",
+    "verdict": "review",
+    "what_it_is": "Released versions of your apps. Needed to read crash reports.",
+    "how_to_free": "Delete old ones from Xcode → Organizer.",
+    "guide": "https://diskspaceai.com/folders/xcode-archives"
+  },
+  {
+    "id": "android-sdk",
+    "name": "Android SDK",
+    "path": "~/Library/Android/sdk",
+    "category": "Developer tools",
+    "verdict": "review",
+    "what_it_is": "Android platforms and tools.",
+    "how_to_free": "Remove versions you don't use from Android Studio → SDK Manager.",
+    "guide": "https://diskspaceai.com/folders/android-sdk"
+  },
+  {
+    "id": "android-emulators",
+    "name": "Android emulators",
+    "path": "~/.android/avd",
+    "category": "Developer tools",
+    "verdict": "review",
+    "what_it_is": "Each emulator keeps its own disk.",
+    "how_to_free": "Delete the ones you don't use from Android Studio → Device Manager.",
+    "guide": "https://diskspaceai.com/folders/android-emulators"
+  },
+  {
+    "id": "npm-global",
+    "name": "Global npm packages",
+    "path": "~/.npm-global",
+    "category": "Developer tools",
+    "verdict": "review",
+    "what_it_is": "Terminal tools installed with npm install -g. See which you have with npm ls -g --depth=0.",
+    "how_to_free": "With the tool's own command: `npm uninstall -g `",
+    "guide": "https://diskspaceai.com/folders/npm-global"
+  },
+  {
+    "id": "huggingface",
+    "name": "Hugging Face models",
+    "path": "~/.cache/huggingface",
+    "category": "AI models",
+    "verdict": "review",
+    "what_it_is": "Downloaded AI models. They can be downloaded again, but they're big.",
+    "how_to_free": "huggingface-cli delete-cache (lets you choose which models to delete).",
+    "guide": "https://diskspaceai.com/folders/huggingface"
+  },
+  {
+    "id": "ollama",
+    "name": "Ollama models",
+    "path": "~/.ollama/models",
+    "category": "AI models",
+    "verdict": "review",
+    "what_it_is": "Local AI models. See which you use with ollama list.",
+    "how_to_free": "With the tool's own command: `ollama rm `",
+    "guide": "https://diskspaceai.com/folders/ollama"
+  },
+  {
+    "id": "lmstudio",
+    "name": "LM Studio models",
+    "path": "~/.lmstudio/models",
+    "category": "AI models",
+    "verdict": "review",
+    "what_it_is": "Local AI models downloaded from LM Studio.",
+    "how_to_free": "Delete the ones you don't use from LM Studio → My Models.",
+    "guide": "https://diskspaceai.com/folders/lmstudio"
+  },
+  {
+    "id": "whisper",
+    "name": "Whisper models",
+    "path": "~/.cache/whisper",
+    "category": "AI models",
+    "verdict": "review",
+    "what_it_is": "Speech-to-text models. Downloaded again when used.",
+    "how_to_free": "By emptying the folder's contents (the folder stays).",
+    "guide": "https://diskspaceai.com/folders/whisper"
+  },
+  {
+    "id": "torch",
+    "name": "PyTorch models",
+    "path": "~/.cache/torch",
+    "category": "AI models",
+    "verdict": "review",
+    "what_it_is": "Model weights downloaded by PyTorch.",
+    "how_to_free": "By emptying the folder's contents (the folder stays).",
+    "guide": "https://diskspaceai.com/folders/torch"
+  },
+  {
+    "id": "chroma",
+    "name": "Chroma models",
+    "path": "~/.cache/chroma",
+    "category": "AI models",
+    "verdict": "review",
+    "what_it_is": "Embedding models downloaded by Chroma.",
+    "how_to_free": "By emptying the folder's contents (the folder stays).",
+    "guide": "https://diskspaceai.com/folders/chroma"
+  },
+  {
+    "id": "chrome-ai-model",
+    "name": "Chrome AI model",
+    "path": "~/Library/Application Support/Google/Chrome/OptGuideOnDeviceModel",
+    "category": "AI models",
+    "verdict": "review",
+    "what_it_is": "Gemini Nano, which Chrome downloads by itself. It comes back unless you turn it off in chrome://flags.",
+    "how_to_free": "Quit Google Chrome first. By deleting it (to the Trash).",
+    "guide": "https://diskspaceai.com/folders/chrome-ai-model"
+  },
+  {
+    "id": "ios-backups",
+    "name": "iPhone backups",
+    "path": "~/Library/Application Support/MobileSync/Backup",
+    "category": "Your data",
+    "verdict": "review",
+    "what_it_is": "Local backups of your devices.",
+    "how_to_free": "Manage from Finder → your iPhone → Manage Backups.",
+    "guide": "https://diskspaceai.com/folders/ios-backups"
+  },
+  {
+    "id": "downloaded-installers",
+    "name": "Installers in Downloads",
+    "path": "~/Downloads/*.dmg, *.pkg, *.zip, *.iso, *.xip",
+    "category": "Downloads",
+    "verdict": "review",
+    "what_it_is": "Downloaded installers and archives. Usually no longer needed.",
+    "how_to_free": "By deleting it (to the Trash).",
+    "guide": "https://diskspaceai.com/folders/downloaded-installers"
+  },
+  {
+    "id": "trash",
+    "name": "Trash",
+    "path": "~/.Trash",
+    "category": "Your data",
+    "verdict": "review",
+    "what_it_is": "Files you already deleted.",
+    "how_to_free": "Empty the Trash from the Finder.",
+    "guide": "https://diskspaceai.com/folders/trash"
+  },
+  {
+    "id": "claude-code-plugins",
+    "name": "Claude Code plugins",
+    "path": "~/.claude/plugins/cache",
+    "category": "AI apps and tools",
+    "verdict": "review",
+    "what_it_is": "Plugins installed in Claude Code. If you delete them, you'll have to reinstall them.",
+    "how_to_free": "Uninstall the ones you don't use with /plugin in Claude Code.",
+    "guide": "https://diskspaceai.com/folders/claude-code-plugins"
+  },
+  {
+    "id": "claude-mem-index",
+    "name": "claude-mem search index",
+    "path": "~/.claude-mem/chroma",
+    "category": "AI apps and tools",
+    "verdict": "review",
+    "what_it_is": "Index for searching claude-mem's memory; rebuilt from its database.",
+    "how_to_free": "By deleting it (to the Trash).",
+    "guide": "https://diskspaceai.com/folders/claude-mem-index"
+  },
+  {
+    "id": "aerial-wallpapers",
+    "name": "Aerial wallpapers",
+    "path": "~/Library/Application Support/com.apple.wallpaper/aerials/videos",
+    "category": "App caches",
+    "verdict": "review",
+    "what_it_is": "Videos for macOS aerial wallpapers and screen savers. The one you pick is downloaded again.",
+    "how_to_free": "By emptying the folder's contents (the folder stays).",
+    "guide": "https://diskspaceai.com/folders/aerial-wallpapers"
+  },
+  {
+    "id": "uv-python",
+    "name": "uv Python versions",
+    "path": "~/.local/share/uv/python",
+    "category": "Developer tools",
+    "verdict": "review",
+    "what_it_is": "Python versions installed by uv. Your projects' .venv environments depend on them. See which you have with uv python list.",
+    "how_to_free": "With the tool's own command: `uv python uninstall `",
+    "guide": "https://diskspaceai.com/folders/uv-python"
+  },
+  {
+    "id": "minimax-agents",
+    "name": "MiniMax agents",
+    "path": "~/.minimax/agents",
+    "category": "AI apps and tools",
+    "verdict": "review",
+    "what_it_is": "Data and settings for MiniMax Agent's agents.",
+    "how_to_free": "Review it in MiniMax Agent.",
+    "guide": "https://diskspaceai.com/folders/minimax-agents"
+  },
+  {
+    "id": "chrome-profiles",
+    "name": "Chrome profiles",
+    "path": "~/Library/Application Support/Google/Chrome/Default, Profile *",
+    "category": "Your data",
+    "verdict": "keep",
+    "what_it_is": "History, sessions and extensions.",
+    "how_to_free": "This is your browsing data.",
+    "guide": "https://diskspaceai.com/folders/chrome-profiles"
+  },
+  {
+    "id": "photos-library",
+    "name": "Photos library",
+    "path": "~/Pictures/*.photoslibrary",
+    "category": "Your data",
+    "verdict": "keep",
+    "what_it_is": "Your photos and videos.",
+    "how_to_free": "Photos → Settings → iCloud → Optimize Mac Storage.",
+    "guide": "https://diskspaceai.com/folders/photos-library"
+  },
+  {
+    "id": "claude-code-current",
+    "name": "Claude Code (version in use)",
+    "path": "~/Library/Application Support/Claude/claude-code/<current version>",
+    "category": "AI apps and tools",
+    "verdict": "keep",
+    "what_it_is": "The Claude Code version the Claude app is using right now.",
+    "how_to_free": "This is the version in use.",
+    "guide": "https://diskspaceai.com/folders/claude-code-current"
+  },
+  {
+    "id": "claude-code-history",
+    "name": "Claude Code history",
+    "path": "~/.claude/projects",
+    "category": "Your data",
+    "verdict": "keep",
+    "what_it_is": "Your Claude Code conversations, by project.",
+    "how_to_free": "These are your conversations.",
+    "guide": "https://diskspaceai.com/folders/claude-code-history"
+  },
+  {
+    "id": "codex-sessions",
+    "name": "Codex history",
+    "path": "~/.codex/sessions",
+    "category": "Your data",
+    "verdict": "keep",
+    "what_it_is": "Your Codex sessions.",
+    "how_to_free": "These are your sessions.",
+    "guide": "https://diskspaceai.com/folders/codex-sessions"
+  },
+  {
+    "id": "claude-mem-memory",
+    "name": "claude-mem memory",
+    "path": "~/.claude-mem/claude-mem.db*",
+    "category": "Your data",
+    "verdict": "keep",
+    "what_it_is": "The database with the memory saved by the claude-mem plugin.",
+    "how_to_free": "This is your saved memory.",
+    "guide": "https://diskspaceai.com/folders/claude-mem-memory"
+  },
+  {
+    "id": "cache-slack",
+    "name": "Slack cache",
+    "path": "~/Library/Application Support/Slack/Cache, Code Cache, GPUCache",
+    "category": "App caches",
+    "verdict": "safe",
+    "what_it_is": "Slack's interface cache: pages, images and code it already loaded. It rebuilds itself when you open the app; your messages, sessions and settings aren't here.",
+    "how_to_free": "Quit Slack first. By deleting it (to the Trash).",
+    "guide": "https://diskspaceai.com/folders/cache-slack"
+  },
+  {
+    "id": "cache-discord",
+    "name": "Discord cache",
+    "path": "~/Library/Application Support/discord/Cache, Code Cache, GPUCache",
+    "category": "App caches",
+    "verdict": "safe",
+    "what_it_is": "Discord's interface cache: pages, images and code it already loaded. It rebuilds itself when you open the app; your messages, sessions and settings aren't here.",
+    "how_to_free": "Quit Discord first. By deleting it (to the Trash).",
+    "guide": "https://diskspaceai.com/folders/cache-discord"
+  },
+  {
+    "id": "cache-vscode",
+    "name": "Visual Studio Code cache",
+    "path": "~/Library/Application Support/Code/Cache, Code Cache, GPUCache",
+    "category": "App caches",
+    "verdict": "safe",
+    "what_it_is": "Visual Studio Code's interface cache: pages, images and code it already loaded. It rebuilds itself when you open the app; your messages, sessions and settings aren't here.",
+    "how_to_free": "Quit Visual Studio Code first. By deleting it (to the Trash).",
+    "guide": "https://diskspaceai.com/folders/cache-vscode"
+  },
+  {
+    "id": "cache-cursor",
+    "name": "Cursor cache",
+    "path": "~/Library/Application Support/Cursor/Cache, Code Cache, GPUCache",
+    "category": "App caches",
+    "verdict": "safe",
+    "what_it_is": "Cursor's interface cache: pages, images and code it already loaded. It rebuilds itself when you open the app; your messages, sessions and settings aren't here.",
+    "how_to_free": "Quit Cursor first. By deleting it (to the Trash).",
+    "guide": "https://diskspaceai.com/folders/cache-cursor"
+  },
+  {
+    "id": "cache-notion",
+    "name": "Notion cache",
+    "path": "~/Library/Application Support/Notion/Cache, Code Cache, GPUCache",
+    "category": "App caches",
+    "verdict": "safe",
+    "what_it_is": "Notion's interface cache: pages, images and code it already loaded. It rebuilds itself when you open the app; your messages, sessions and settings aren't here.",
+    "how_to_free": "Quit Notion first. By deleting it (to the Trash).",
+    "guide": "https://diskspaceai.com/folders/cache-notion"
+  },
+  {
+    "id": "cache-figma",
+    "name": "Figma cache",
+    "path": "~/Library/Application Support/Figma/Cache, Code Cache, GPUCache",
+    "category": "App caches",
+    "verdict": "safe",
+    "what_it_is": "Figma's interface cache: pages, images and code it already loaded. It rebuilds itself when you open the app; your messages, sessions and settings aren't here.",
+    "how_to_free": "Quit Figma first. By deleting it (to the Trash).",
+    "guide": "https://diskspaceai.com/folders/cache-figma"
+  },
+  {
+    "id": "cache-obsidian",
+    "name": "Obsidian cache",
+    "path": "~/Library/Application Support/obsidian/Cache, Code Cache, GPUCache",
+    "category": "App caches",
+    "verdict": "safe",
+    "what_it_is": "Obsidian's interface cache: pages, images and code it already loaded. It rebuilds itself when you open the app; your messages, sessions and settings aren't here.",
+    "how_to_free": "Quit Obsidian first. By deleting it (to the Trash).",
+    "guide": "https://diskspaceai.com/folders/cache-obsidian"
+  },
+  {
+    "id": "cache-postman",
+    "name": "Postman cache",
+    "path": "~/Library/Application Support/Postman/Cache, Code Cache, GPUCache",
+    "category": "App caches",
+    "verdict": "safe",
+    "what_it_is": "Postman's interface cache: pages, images and code it already loaded. It rebuilds itself when you open the app; your messages, sessions and settings aren't here.",
+    "how_to_free": "Quit Postman first. By deleting it (to the Trash).",
+    "guide": "https://diskspaceai.com/folders/cache-postman"
+  },
+  {
+    "id": "cache-linear",
+    "name": "Linear cache",
+    "path": "~/Library/Application Support/Linear/Cache, Code Cache, GPUCache",
+    "category": "App caches",
+    "verdict": "safe",
+    "what_it_is": "Linear's interface cache: pages, images and code it already loaded. It rebuilds itself when you open the app; your messages, sessions and settings aren't here.",
+    "how_to_free": "Quit Linear first. By deleting it (to the Trash).",
+    "guide": "https://diskspaceai.com/folders/cache-linear"
+  },
+  {
+    "id": "cache-signal",
+    "name": "Signal cache",
+    "path": "~/Library/Application Support/Signal/Cache, Code Cache, GPUCache",
+    "category": "App caches",
+    "verdict": "safe",
+    "what_it_is": "Signal's interface cache: pages, images and code it already loaded. It rebuilds itself when you open the app; your messages, sessions and settings aren't here.",
+    "how_to_free": "Quit Signal first. By deleting it (to the Trash).",
+    "guide": "https://diskspaceai.com/folders/cache-signal"
+  }
+]
