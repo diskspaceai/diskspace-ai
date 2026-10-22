@@ -25,7 +25,7 @@ This repository is DiskSpace AI's **public documentation**: the catalog of folde
 
 ## Download
 
-[DiskSpace AI 1.0.6 for Mac](https://diskspaceai.com/descargas/DiskSpaceAI.dmg) · macOS 15 or later · Apple silicon and Intel. During the beta, Pro is free until December 31, 2026. Install steps on [the beta page](https://diskspaceai.com/beta).
+[DiskSpace AI 1.0.6 for Mac](https://diskspaceai.com/download) · macOS 15 or later · Apple silicon and Intel. During the beta, Pro is free until December 31, 2026. Install steps on [the beta page](https://diskspaceai.com/beta).
 
 The app updates itself. What changes in each version is in [CHANGELOG.md](CHANGELOG.md).
 
@@ -41,7 +41,7 @@ The app updates itself. What changes in each version is in [CHANGELOG.md](CHANGE
 ## Help and contact
 
 - FAQ and pricing: [diskspaceai.com](https://diskspaceai.com/)
-- Support: soporte@diskspaceai.com
+- Support: support@diskspaceai.com
 - Bugs and suggestions: [open an issue](../../issues/new/choose)
 
 <sub>The folder catalog and documentation are licensed under CC BY 4.0 (see LICENSE). DiskSpace AI is not affiliated with Apple. Mac and macOS are trademarks of Apple Inc.</sub>

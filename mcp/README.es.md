@@ -8,7 +8,7 @@ DiskSpace AI trae un servidor [MCP](https://modelcontextprotocol.io): tu agente 
 
 ## Conectar con un clic
 
-1. [Descarga DiskSpace AI](https://diskspaceai.com/descargas/DiskSpaceAI.dmg) (1.0.5 o posterior) y ábrela.
+1. [Descarga DiskSpace AI](https://diskspaceai.com/download) (1.0.5 o posterior) y ábrela.
 2. Abre **Ajustes → IA → Conectar con tu agente de IA** y pulsa **Conectar** en Claude Code o Claude Desktop. No hace falta terminal; Claude Code también funciona dentro de la app de escritorio de Claude.
 3. Abre una sesión nueva y pregunta «¿qué ocupa espacio en mi Mac?».
 

@@ -25,7 +25,7 @@ Este repositorio es la **documentación pública** de DiskSpace AI: el catálogo
 
 ## Descargar
 
-[DiskSpace AI 1.0.6 para Mac](https://diskspaceai.com/descargas/DiskSpaceAI.dmg) · macOS 15 o posterior · Apple silicon e Intel. Durante la beta, Pro es gratis hasta el 31 de diciembre de 2026. Pasos de instalación en [la página de la beta](https://diskspaceai.com/es/beta).
+[DiskSpace AI 1.0.6 para Mac](https://diskspaceai.com/download) · macOS 15 o posterior · Apple silicon e Intel. Durante la beta, Pro es gratis hasta el 31 de diciembre de 2026. Pasos de instalación en [la página de la beta](https://diskspaceai.com/es/beta).
 
 La app se actualiza sola. Lo que cambia en cada versión está en [CHANGELOG.es.md](CHANGELOG.es.md).
 
@@ -41,7 +41,7 @@ La app se actualiza sola. Lo que cambia en cada versión está en [CHANGELOG.es.
 ## Ayuda y contacto
 
 - Preguntas frecuentes y precio: [diskspaceai.com](https://diskspaceai.com/es/)
-- Soporte: soporte@diskspaceai.com
+- Soporte: support@diskspaceai.com
 - Errores y sugerencias: [abre una incidencia](../../issues/new/choose)
 
 <sub>El catálogo de carpetas y la documentación se publican con licencia CC BY 4.0 (ver LICENSE). DiskSpace AI no está afiliado a Apple. Mac y macOS son marcas de Apple Inc.</sub>

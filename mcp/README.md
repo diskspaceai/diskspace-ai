@@ -8,7 +8,7 @@ DiskSpace AI comes with an [MCP](https://modelcontextprotocol.io) server: your a
 
 ## Connect with one click
 
-1. [Download DiskSpace AI](https://diskspaceai.com/descargas/DiskSpaceAI.dmg) (1.0.5 or later) and open it.
+1. [Download DiskSpace AI](https://diskspaceai.com/download) (1.0.5 or later) and open it.
 2. Open **Settings → AI → Connect your AI agent** and click **Connect** for Claude Code or Claude Desktop. No Terminal needed; Claude Code also works inside the Claude desktop app.
 3. Start a new session and ask “what's taking up space on my Mac?”.
 
