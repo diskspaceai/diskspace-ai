@@ -2,6 +2,57 @@
 
 DiskSpace AI se actualiza sola. También en [diskspaceai.com/es/novedades](https://diskspaceai.com/es/novedades).
 
+## 1.0.14
+
+- Explorador: una ventana como el Explorador de Windows, pero con lo que ocupa de verdad cada carpeta. Árbol a la izquierda, tabla ordenable con tamaño, porcentaje, clase y fecha, y filtro por nombre. Pulsa «Explorador» arriba o ⇧⌘E.
+- «Este Mac»: tus discos con su espacio libre y lo que ocupa cada carpeta tuya, de un vistazo.
+- Intro abre, ⌫ sube, espacio es la Vista Rápida. Con el clic derecho, archivar o apartar 7 días lo tuyo, siempre preguntando.
+
+## 1.0.13
+
+- Archivo → «Archivar una carpeta…» (⇧⌘A): elige cualquier carpeta o archivo tuyo y verás cuánto ahorrarías antes de archivarlo.
+- «Para archivar» está siempre en la lista, con «Elegir…» para archivar lo que tú decidas.
+- Por seguridad, no deja archivar carpetas de macOS enteras, lo de Library, apps ni bibliotecas.
+
+## 1.0.12
+
+- Archivar en vez de borrar: los proyectos sin cambios desde hace meses y los archivos grandes olvidados que comprimen bien aparecen en «Para archivar», con lo que ahorrarías medido de verdad.
+- «Archivar» crea un .zip junto al original (se abre con doble clic en cualquier Mac), lo comprueba entero y solo entonces aparta el original 7 días, con «Deshacer». Si algo falla, no se toca nada.
+- También con el clic derecho → «Archivar…» en los archivos grandes olvidados.
+
+## 1.0.11
+
+- Fotos parecidas: las fotos casi iguales hechas seguidas, agrupadas. La IA de Apple, en tu Mac, propone quedarte con la mejor de cada grupo.
+- Duplicados en Fotos: copias exactas de la misma foto o vídeo. Ves cada grupo junto, con la que se queda marcada, o puedes fusionarlos con la herramienta de Fotos.
+- Fotos y vídeos duplicados en tus carpetas (Imágenes, Descargas, Escritorio…), aunque sean pequeños. Se queda la del sitio más estable.
+- Doble clic en una foto para verla en grande antes de decidir.
+
+## 1.0.10
+
+- Botón «Fotos» arriba, para revisar las capturas, los vídeos grandes y las ráfagas de tu fototeca sin buscarlo en los menús.
+- Fotos y vídeos: la app se cerraba al pulsar «Quitar». Ya funciona: macOS te pide confirmación y lo que quites va a «Eliminado recientemente».
+- Las miniaturas de Fotos ya no se pisan unas a otras.
+
+## 1.0.9
+
+- Fotos y vídeos: revisa las capturas de pantalla, los vídeos de más de 100 MB y las fotos sobrantes de las ráfagas de tu fototeca. Nada viene marcado, y lo que quites va a «Eliminado recientemente» de Fotos (30 días). Ábrelo desde la fila «Fototeca» o en Edición → Revisar fotos y vídeos…
+- Otro disco: mira qué ocupa un disco externo en el mapa, con la lupa, la búsqueda y la Vista Rápida. Solo para mirar.
+- Capturas de pantalla del Escritorio: aparecen juntas para revisarlas; las que limpies se apartan 7 días.
+
+## 1.0.8
+
+- Instaladores ya usados: el .dmg de una app que ya tienes instalada, o el .zip que ya descomprimiste, pasan a «se puede borrar sin riesgo». Lo que contenían ya está en tu Mac.
+- Vista Rápida: pulsa la barra espaciadora sobre un bloque del mapa o una fila para ver qué es sin abrir nada, como en el Finder. También en el menú del clic derecho.
+- Búsqueda: escribe arriba de la lista (o pulsa ⌘F) y verás solo lo que coincide; en el mapa se apaga el resto.
+- Pro incluye las actualizaciones gratis.
+
+## 1.0.7
+
+- Licencias listas: cuando compres Pro, pega la clave del correo y pulsa Activar. Vale en hasta 3 Macs y la puedes pasar de uno a otro.
+- ¿Has perdido tu clave? Un enlace junto a la casilla te lleva a tus pedidos, donde la recuperas con tu correo.
+- Aviso del fin de la beta: en diciembre verás cuántos días quedan, y el 1 de enero la app te explica qué sigue siendo gratis. Nada deja de funcionar de golpe ni sin avisar.
+- Si la limpieza semanal se pausa por no tener Pro, el panel de la barra de menús lo dice.
+
 ## 1.0.6
 
 - La Ayuda explica con claridad qué sale de tu Mac: solo la comprobación de la licencia y de actualizaciones, y, si conectas un agente de IA en la nube, los nombres de carpetas y tamaños que le respondes (nunca el contenido de tus archivos).

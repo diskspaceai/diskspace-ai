@@ -2,6 +2,57 @@
 
 DiskSpace AI updates itself. Also at [diskspaceai.com/whats-new](https://diskspaceai.com/whats-new).
 
+## 1.0.14
+
+- Explorer: a window like Windows Explorer, but with what each folder really takes. A tree on the left, a sortable table with size, percentage, kind and date, and a name filter. Click “Explorer” at the top or press ⇧⌘E.
+- “This Mac”: your drives with their free space and what each of your folders takes, at a glance.
+- Return opens, ⌫ goes up, space is Quick Look. With right-click, archive or set aside your own things for 7 days, always asking first.
+
+## 1.0.13
+
+- File → “Archive a Folder…” (⇧⌘A): choose any folder or file of yours and see how much you'd save before archiving it.
+- “To Archive” is always in the list, with “Choose…” to archive whatever you decide.
+- For safety, whole macOS folders, Library, apps and libraries can't be archived.
+
+## 1.0.12
+
+- Archive instead of delete: projects unchanged for months and large forgotten files that compress well show up under “To Archive”, with the savings actually measured.
+- “Archive” creates a .zip next to the original (it opens with a double-click on any Mac), checks it fully, and only then sets the original aside for 7 days, with Undo. If anything fails, nothing is touched.
+- Also with right-click → “Archive…” on large forgotten files.
+
+## 1.0.11
+
+- Similar photos: nearly identical shots taken in a row, grouped. Apple's AI, on your Mac, suggests keeping the best one in each group.
+- Duplicates in Photos: exact copies of the same photo or video. See each group together with the one that stays marked, or merge them with Photos' own tool.
+- Duplicate photos and videos in your folders (Pictures, Downloads, Desktop…), even small ones. The one in the most stable place stays.
+- Double-click a photo to see it large before deciding.
+
+## 1.0.10
+
+- A “Photos” button at the top, to review the screenshots, large videos and bursts in your library without digging through menus.
+- Photos and videos: the app quit when you clicked “Remove”. It works now: macOS asks you to confirm and what you remove goes to “Recently Deleted”.
+- Photo thumbnails no longer overlap each other.
+
+## 1.0.9
+
+- Photos and videos: review the screenshots, videos over 100 MB and extra burst photos in your library. Nothing is preselected, and what you remove goes to Photos' “Recently Deleted” (30 days). Open it from the “Photos library” row or Edit → Review Photos and Videos…
+- Other drive: see what's taking space on an external drive on the map, with the magnifier, search and Quick Look. View only.
+- Desktop screenshots: they show up together so you can review them; the ones you clean are kept 7 days.
+
+## 1.0.8
+
+- Installers already used: the .dmg of an app you already have installed, or a .zip you already extracted, now show as safe to delete. What they contained is already on your Mac.
+- Quick Look: press the space bar over a block on the map or a row to see what it is without opening anything, like in the Finder. It's also in the right-click menu.
+- Search: type above the list (or press ⌘F) to see only what matches; the rest dims on the map.
+- Pro includes free updates.
+
+## 1.0.7
+
+- Licenses are ready: when you buy Pro, paste the key from the email and click Activate. It works on up to 3 Macs and you can move it from one to another.
+- Lost your key? A link next to the box takes you to your orders, where you get it back with your email.
+- End-of-beta notice: in December you'll see how many days are left, and on January 1 the app explains what stays free. Nothing stops working suddenly or without warning.
+- If the weekly cleanup pauses because you don't have Pro, the menu bar panel says so.
+
 ## 1.0.6
 
 - Help now explains clearly what leaves your Mac: only the license and update checks, and, if you connect a cloud AI agent, the folder names and sizes the app returns to it (never the contents of your files).

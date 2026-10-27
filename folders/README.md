@@ -1,6 +1,6 @@
 # What every folder on your Mac is, and whether you can delete it
 
-The 68 folders and caches DiskSpace AI knows. **Recreates itself**: the tool that made it creates it again. **Review**: it may hold something of yours. **Your data**: don't delete it. Each one has its own page in the [web guide](https://diskspaceai.com/folders).
+The 70 folders and caches DiskSpace AI knows. **Recreates itself**: the tool that made it creates it again. **Review**: it may hold something of yours. **Your data**: don't delete it. Each one has its own page in the [web guide](https://diskspaceai.com/folders).
 
 Also as [JSON](folders.json), to use in your scripts. Missing one? [Open an issue](../../../issues/new/choose).
 
@@ -103,6 +103,7 @@ Also as [JSON](folders.json), to use in your scripts. Missing one? [Open an issu
 
 | Folder | Where | Verdict | How to free it |
 |---|---|---|---|
+| [Installers already used](https://diskspaceai.com/folders/used-installers)<br><sub>Installers of apps you already have installed and archives you already extracted: what they contained is already on your Mac. If you ever need them, they can be downloaded again.</sub> | `~/Downloads/<installers of installed apps and already extracted archives>` | 🟢 Recreates itself | By deleting it (to the Trash). |
 | [Installers in Downloads](https://diskspaceai.com/folders/downloaded-installers)<br><sub>Downloaded installers and archives. Usually no longer needed.</sub> | `~/Downloads/*.dmg, *.pkg, *.zip, *.iso, *.xip` | 🟠 Review | By deleting it (to the Trash). |
 
 ## Your data
@@ -110,6 +111,7 @@ Also as [JSON](folders.json), to use in your scripts. Missing one? [Open an issu
 | Folder | Where | Verdict | How to free it |
 |---|---|---|---|
 | [iPhone backups](https://diskspaceai.com/folders/ios-backups)<br><sub>Local backups of your devices.</sub> | `~/Library/Application Support/MobileSync/Backup` | 🟠 Review | Manage from Finder → your iPhone → Manage Backups. |
+| [Desktop screenshots](https://diskspaceai.com/folders/desktop-screenshots)<br><sub>Screenshots and screen recordings macOS saves on the Desktop. Check whether you need any: the ones you clean are kept 7 days.</sub> | `~/Desktop/Captura de pantalla *, Screenshot *, Grabación de pantalla *, Screen Recording *, CleanShot *` | 🟠 Review | By deleting it (to the Trash). |
 | [Trash](https://diskspaceai.com/folders/trash)<br><sub>Files you already deleted.</sub> | `~/.Trash` | 🟠 Review | Empty the Trash from the Finder. |
 | [Chrome profiles](https://diskspaceai.com/folders/chrome-profiles)<br><sub>History, sessions and extensions.</sub> | `~/Library/Application Support/Google/Chrome/Default, Profile *` | ⚪ Your data | This is your browsing data. |
 | [Photos library](https://diskspaceai.com/folders/photos-library)<br><sub>Your photos and videos.</sub> | `~/Pictures/*.photoslibrary` | ⚪ Your data | Photos → Settings → iCloud → Optimize Mac Storage. |

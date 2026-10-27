@@ -160,6 +160,16 @@
     "guide": "https://diskspaceai.com/es/carpetas/codex-runtimes"
   },
   {
+    "id": "used-installers",
+    "name": "Instaladores ya usados",
+    "path": "~/Downloads/<instaladores de apps ya instaladas y comprimidos ya descomprimidos>",
+    "category": "Descargas",
+    "verdict": "safe",
+    "what_it_is": "Instaladores de apps que ya tienes instaladas y comprimidos que ya descomprimiste: lo que contenían ya está en tu Mac. Si algún día los necesitas, se vuelven a descargar.",
+    "how_to_free": "Borrándola (a la papelera).",
+    "guide": "https://diskspaceai.com/es/carpetas/used-installers"
+  },
+  {
     "id": "app-updaters",
     "name": "Instaladores de actualizaciones viejas",
     "path": "~/Library/Caches/*ShipIt, *updater*, *Updater*",
@@ -458,6 +468,16 @@
     "what_it_is": "Instaladores y archivos comprimidos descargados. Normalmente ya no hacen falta.",
     "how_to_free": "Borrándola (a la papelera).",
     "guide": "https://diskspaceai.com/es/carpetas/downloaded-installers"
+  },
+  {
+    "id": "desktop-screenshots",
+    "name": "Capturas de pantalla del Escritorio",
+    "path": "~/Desktop/Captura de pantalla *, Screenshot *, Grabación de pantalla *, Screen Recording *, CleanShot *",
+    "category": "Tus datos",
+    "verdict": "review",
+    "what_it_is": "Capturas y grabaciones de pantalla que macOS guarda en el Escritorio. Mira si alguna te hace falta: las que limpies se apartan 7 días.",
+    "how_to_free": "Borrándola (a la papelera).",
+    "guide": "https://diskspaceai.com/es/carpetas/desktop-screenshots"
   },
   {
     "id": "trash",

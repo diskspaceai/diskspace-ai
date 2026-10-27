@@ -1,6 +1,6 @@
 # Qué es cada carpeta de tu Mac y si se puede borrar
 
-Las 68 carpetas y cachés que conoce DiskSpace AI. **Se regenera solo**: la herramienta que lo creó lo vuelve a crear. **Revisar**: puede guardar algo tuyo. **Tus datos**: no se borra. Cada una tiene su página en la [guía de la web](https://diskspaceai.com/es/carpetas).
+Las 70 carpetas y cachés que conoce DiskSpace AI. **Se regenera solo**: la herramienta que lo creó lo vuelve a crear. **Revisar**: puede guardar algo tuyo. **Tus datos**: no se borra. Cada una tiene su página en la [guía de la web](https://diskspaceai.com/es/carpetas).
 
 También en [JSON](carpetas.json), para usarlo en tus scripts. ¿Falta alguna? [Abre una incidencia](../../../issues/new/choose).
 
@@ -103,6 +103,7 @@ También en [JSON](carpetas.json), para usarlo en tus scripts. ¿Falta alguna? [
 
 | Carpeta | Dónde | Veredicto | Cómo liberarla |
 |---|---|---|---|
+| [Instaladores ya usados](https://diskspaceai.com/es/carpetas/used-installers)<br><sub>Instaladores de apps que ya tienes instaladas y comprimidos que ya descomprimiste: lo que contenían ya está en tu Mac. Si algún día los necesitas, se vuelven a descargar.</sub> | `~/Downloads/<instaladores de apps ya instaladas y comprimidos ya descomprimidos>` | 🟢 Se regenera solo | Borrándola (a la papelera). |
 | [Instaladores en Descargas](https://diskspaceai.com/es/carpetas/downloaded-installers)<br><sub>Instaladores y archivos comprimidos descargados. Normalmente ya no hacen falta.</sub> | `~/Downloads/*.dmg, *.pkg, *.zip, *.iso, *.xip` | 🟠 Revisar | Borrándola (a la papelera). |
 
 ## Tus datos
@@ -110,6 +111,7 @@ También en [JSON](carpetas.json), para usarlo en tus scripts. ¿Falta alguna? [
 | Carpeta | Dónde | Veredicto | Cómo liberarla |
 |---|---|---|---|
 | [Copias de seguridad del iPhone](https://diskspaceai.com/es/carpetas/ios-backups)<br><sub>Copias locales de tus dispositivos.</sub> | `~/Library/Application Support/MobileSync/Backup` | 🟠 Revisar | Gestionar desde Finder → tu iPhone → Gestionar copias. |
+| [Capturas de pantalla del Escritorio](https://diskspaceai.com/es/carpetas/desktop-screenshots)<br><sub>Capturas y grabaciones de pantalla que macOS guarda en el Escritorio. Mira si alguna te hace falta: las que limpies se apartan 7 días.</sub> | `~/Desktop/Captura de pantalla *, Screenshot *, Grabación de pantalla *, Screen Recording *, CleanShot *` | 🟠 Revisar | Borrándola (a la papelera). |
 | [Papelera](https://diskspaceai.com/es/carpetas/trash)<br><sub>Archivos que ya borraste.</sub> | `~/.Trash` | 🟠 Revisar | Vaciar la papelera desde el Finder. |
 | [Perfiles de Chrome](https://diskspaceai.com/es/carpetas/chrome-profiles)<br><sub>Historial, sesiones y extensiones.</sub> | `~/Library/Application Support/Google/Chrome/Default, Profile *` | ⚪ Tus datos | Son tus datos de navegación. |
 | [Fototeca](https://diskspaceai.com/es/carpetas/photos-library)<br><sub>Tus fotos y vídeos.</sub> | `~/Pictures/*.photoslibrary` | ⚪ Tus datos | Fotos → Ajustes → iCloud → Optimizar almacenamiento. |

@@ -160,6 +160,16 @@
     "guide": "https://diskspaceai.com/folders/codex-runtimes"
   },
   {
+    "id": "used-installers",
+    "name": "Installers already used",
+    "path": "~/Downloads/<installers of installed apps and already extracted archives>",
+    "category": "Downloads",
+    "verdict": "safe",
+    "what_it_is": "Installers of apps you already have installed and archives you already extracted: what they contained is already on your Mac. If you ever need them, they can be downloaded again.",
+    "how_to_free": "By deleting it (to the Trash).",
+    "guide": "https://diskspaceai.com/folders/used-installers"
+  },
+  {
     "id": "app-updaters",
     "name": "Old update installers",
     "path": "~/Library/Caches/*ShipIt, *updater*, *Updater*",
@@ -458,6 +468,16 @@
     "what_it_is": "Downloaded installers and archives. Usually no longer needed.",
     "how_to_free": "By deleting it (to the Trash).",
     "guide": "https://diskspaceai.com/folders/downloaded-installers"
+  },
+  {
+    "id": "desktop-screenshots",
+    "name": "Desktop screenshots",
+    "path": "~/Desktop/Captura de pantalla *, Screenshot *, Grabación de pantalla *, Screen Recording *, CleanShot *",
+    "category": "Your data",
+    "verdict": "review",
+    "what_it_is": "Screenshots and screen recordings macOS saves on the Desktop. Check whether you need any: the ones you clean are kept 7 days.",
+    "how_to_free": "By deleting it (to the Trash).",
+    "guide": "https://diskspaceai.com/folders/desktop-screenshots"
   },
   {
     "id": "trash",
