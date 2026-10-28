@@ -1,6 +1,6 @@
 # What every folder on your Mac is, and whether you can delete it
 
-The 70 folders and caches DiskSpace AI knows. **Recreates itself**: the tool that made it creates it again. **Review**: it may hold something of yours. **Your data**: don't delete it. Each one has its own page in the [web guide](https://diskspaceai.com/folders).
+The 73 folders and caches DiskSpace AI knows. **Recreates itself**: the tool that made it creates it again. **Review**: it may hold something of yours. **Your data**: don't delete it. Each one has its own page in the [web guide](https://diskspaceai.com/folders).
 
 Also as [JSON](folders.json), to use in your scripts. Missing one? [Open an issue](../../../issues/new/choose).
 
@@ -36,6 +36,8 @@ Also as [JSON](folders.json), to use in your scripts. Missing one? [Open an issu
 | [Puppeteer browsers](https://diskspaceai.com/folders/puppeteer-browsers)<br><sub>Chrome downloaded by Puppeteer. Downloaded again when used.</sub> | `~/.cache/puppeteer` | 🟢 Recreates itself | By emptying the folder's contents (the folder stays). |
 | [Prisma engines](https://diskspaceai.com/folders/prisma-engines)<br><sub>Prisma binaries. Downloaded again when you generate the client.</sub> | `~/.cache/prisma` | 🟢 Recreates itself | By emptying the folder's contents (the folder stays). |
 | [Android Studio cache](https://diskspaceai.com/folders/android-studio-cache)<br><sub>Android Studio indexes and caches. Recreated when you open it.</sub> | `~/Library/Caches/Google/AndroidStudio*` | 🟢 Recreates itself | By deleting it (to the Trash). |
+| [generate_appcast cache (Sparkle)](https://diskspaceai.com/folders/sparkle-appcast-cache)<br><sub>Copies that Sparkle's generate_appcast tool unpacks to sign updates. It creates them again next time.</sub> | `~/Library/Caches/Sparkle_generate_appcast` | 🟢 Recreates itself | By deleting it (to the Trash). |
+| [Apple Python cache](https://diskspaceai.com/folders/apple-python-cache)<br><sub>.pyc files that Xcode's and macOS's Python compile to start faster. They're recreated automatically.</sub> | `~/Library/Caches/com.apple.python` | 🟢 Recreates itself | By deleting it (to the Trash). |
 | [iPhone simulators](https://diskspaceai.com/folders/ios-simulators)<br><sub>Each simulator keeps the apps and data from your tests. Xcode creates them again.</sub> | `~/Library/Developer/CoreSimulator/Devices` | 🟠 Review | Delete them one by one in DiskSpace AI or in Xcode → Devices and Simulators. |
 | [Xcode archives](https://diskspaceai.com/folders/xcode-archives)<br><sub>Released versions of your apps. Needed to read crash reports.</sub> | `~/Library/Developer/Xcode/Archives` | 🟠 Review | Delete old ones from Xcode → Organizer. |
 | [Android SDK](https://diskspaceai.com/folders/android-sdk)<br><sub>Android platforms and tools.</sub> | `~/Library/Android/sdk` | 🟠 Review | Remove versions you don't use from Android Studio → SDK Manager. |
@@ -65,6 +67,7 @@ Also as [JSON](folders.json), to use in your scripts. Missing one? [Open an issu
 | [Codex temporary files](https://diskspaceai.com/folders/codex-tmp)<br><sub>Temporary files from Codex.</sub> | `~/.codex/.tmp` | 🟢 Recreates itself | By emptying the folder's contents (the folder stays). |
 | [claude-mem logs](https://diskspaceai.com/folders/claude-mem-logs)<br><sub>Logs from the claude-mem memory plugin.</sub> | `~/.claude-mem/logs` | 🟢 Recreates itself | By emptying the folder's contents (the folder stays). |
 | [Kimi cache](https://diskspaceai.com/folders/kimi-cache)<br><sub>Kimi's interface cache. Rebuilt automatically; quit the app first.</sub> | `~/Library/Application Support/kimi-desktop/Cache, Code Cache, GPUCache, DawnGraphiteCache, DawnWebGPUCache` | 🟢 Recreates itself | Quit Kimi first. By deleting it (to the Trash). |
+| [Perplexity cache](https://diskspaceai.com/folders/perplexity-cache)<br><sub>Pages and images saved by the Perplexity app. Rebuilt automatically; quit the app first.</sub> | `~/Library/Caches/ai.perplexity.macv3` | 🟢 Recreates itself | Quit Perplexity first. By emptying the folder's contents (the folder stays). |
 | [Claude virtual machine](https://diskspaceai.com/folders/claude-vm)<br><sub>Used by the Claude app to run tasks. Downloaded again; quit the app first.</sub> | `~/Library/Application Support/Claude/vm_bundles` | 🟠 Review | Quit Claude first. By deleting it (to the Trash). |
 | [Claude Code plugins](https://diskspaceai.com/folders/claude-code-plugins)<br><sub>Plugins installed in Claude Code. If you delete them, you'll have to reinstall them.</sub> | `~/.claude/plugins/cache` | 🟠 Review | Uninstall the ones you don't use with /plugin in Claude Code. |
 | [claude-mem search index](https://diskspaceai.com/folders/claude-mem-index)<br><sub>Index for searching claude-mem's memory; rebuilt from its database.</sub> | `~/.claude-mem/chroma` | 🟠 Review | By deleting it (to the Trash). |

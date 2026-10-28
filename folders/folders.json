@@ -290,6 +290,36 @@
     "guide": "https://diskspaceai.com/folders/kimi-cache"
   },
   {
+    "id": "perplexity-cache",
+    "name": "Perplexity cache",
+    "path": "~/Library/Caches/ai.perplexity.macv3",
+    "category": "AI apps and tools",
+    "verdict": "safe",
+    "what_it_is": "Pages and images saved by the Perplexity app. Rebuilt automatically; quit the app first.",
+    "how_to_free": "Quit Perplexity first. By emptying the folder's contents (the folder stays).",
+    "guide": "https://diskspaceai.com/folders/perplexity-cache"
+  },
+  {
+    "id": "sparkle-appcast-cache",
+    "name": "generate_appcast cache (Sparkle)",
+    "path": "~/Library/Caches/Sparkle_generate_appcast",
+    "category": "Developer tools",
+    "verdict": "safe",
+    "what_it_is": "Copies that Sparkle's generate_appcast tool unpacks to sign updates. It creates them again next time.",
+    "how_to_free": "By deleting it (to the Trash).",
+    "guide": "https://diskspaceai.com/folders/sparkle-appcast-cache"
+  },
+  {
+    "id": "apple-python-cache",
+    "name": "Apple Python cache",
+    "path": "~/Library/Caches/com.apple.python",
+    "category": "Developer tools",
+    "verdict": "safe",
+    "what_it_is": ".pyc files that Xcode's and macOS's Python compile to start faster. They're recreated automatically.",
+    "how_to_free": "By deleting it (to the Trash).",
+    "guide": "https://diskspaceai.com/folders/apple-python-cache"
+  },
+  {
     "id": "user-logs",
     "name": "App logs",
     "path": "~/Library/Logs",

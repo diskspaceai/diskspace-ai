@@ -290,6 +290,36 @@
     "guide": "https://diskspaceai.com/es/carpetas/kimi-cache"
   },
   {
+    "id": "perplexity-cache",
+    "name": "Caché de Perplexity",
+    "path": "~/Library/Caches/ai.perplexity.macv3",
+    "category": "Apps y herramientas de IA",
+    "verdict": "safe",
+    "what_it_is": "Páginas e imágenes que guarda la app de Perplexity. Se reconstruye; cierra la app antes.",
+    "how_to_free": "Cierra Perplexity antes. Vaciando el contenido de la carpeta (la carpeta se queda).",
+    "guide": "https://diskspaceai.com/es/carpetas/perplexity-cache"
+  },
+  {
+    "id": "sparkle-appcast-cache",
+    "name": "Caché de generate_appcast (Sparkle)",
+    "path": "~/Library/Caches/Sparkle_generate_appcast",
+    "category": "Herramientas de desarrollo",
+    "verdict": "safe",
+    "what_it_is": "Copias que la herramienta generate_appcast de Sparkle descomprime para firmar actualizaciones. Las vuelve a crear la próxima vez.",
+    "how_to_free": "Borrándola (a la papelera).",
+    "guide": "https://diskspaceai.com/es/carpetas/sparkle-appcast-cache"
+  },
+  {
+    "id": "apple-python-cache",
+    "name": "Caché de Python de Apple",
+    "path": "~/Library/Caches/com.apple.python",
+    "category": "Herramientas de desarrollo",
+    "verdict": "safe",
+    "what_it_is": "Archivos .pyc que el Python de Xcode y de macOS compila para arrancar más rápido. Se regeneran solos.",
+    "how_to_free": "Borrándola (a la papelera).",
+    "guide": "https://diskspaceai.com/es/carpetas/apple-python-cache"
+  },
+  {
     "id": "user-logs",
     "name": "Registros de apps",
     "path": "~/Library/Logs",

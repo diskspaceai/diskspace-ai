@@ -2,6 +2,11 @@
 
 DiskSpace AI updates itself. Also at [diskspaceai.com/whats-new](https://diskspaceai.com/whats-new).
 
+## 1.0.17
+
+- Recognizes three more folders: Perplexity's cache, Apple's Python cache and the cache of Sparkle's generate_appcast tool.
+- For your AI agent: if you ask it to clean the dependencies of a project you changed recently, it can now do it, and the plan tells it how to include them.
+
 ## 1.0.16
 
 - After cleaning, a window shows how much you cleaned, how your disk looks now, what took the most space and how much you've cleaned in total with DiskSpace AI, with a milestone when you reach 10, 50 or 100 GB.

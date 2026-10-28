@@ -2,6 +2,11 @@
 
 DiskSpace AI se actualiza sola. También en [diskspaceai.com/es/novedades](https://diskspaceai.com/es/novedades).
 
+## 1.0.17
+
+- Reconoce tres carpetas más: la caché de Perplexity, la caché de Python de Apple y la de la herramienta generate_appcast de Sparkle.
+- Para tu agente de IA: si le pides limpiar las dependencias de un proyecto que has tocado hace poco, ahora puede hacerlo, y el plan le explica cómo incluirlas.
+
 ## 1.0.16
 
 - Al limpiar, una ventana te enseña cuánto has limpiado, cómo queda tu disco, lo que más ocupaba y lo que llevas limpiado en total con DiskSpace AI, con un hito cuando llegas a 10, 50 o 100 GB.
