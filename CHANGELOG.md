@@ -2,6 +2,11 @@
 
 DiskSpace AI updates itself. Also at [diskspaceai.com/whats-new](https://diskspaceai.com/whats-new).
 
+## 1.0.15
+
+- Signed and notarized by Apple: it opens without warnings, and macOS checks nobody has modified it.
+- Permissions stay: from this version on, updates no longer ask again for access to your folders or Photos. This one asks one last time.
+
 ## 1.0.14
 
 - Explorer: a window like Windows Explorer, but with what each folder really takes. A tree on the left, a sortable table with size, percentage, kind and date, and a name filter. Click “Explorer” at the top or press ⇧⌘E.

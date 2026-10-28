@@ -2,6 +2,11 @@
 
 DiskSpace AI se actualiza sola. También en [diskspaceai.com/es/novedades](https://diskspaceai.com/es/novedades).
 
+## 1.0.15
+
+- Firmada y notarizada por Apple: se abre sin avisos, y macOS comprueba que nadie la ha modificado.
+- Los permisos se mantienen: a partir de esta versión, las actualizaciones ya no vuelven a pedir acceso a tus carpetas ni a Fotos. Con esta te los pedirá una última vez.
+
 ## 1.0.14
 
 - Explorador: una ventana como el Explorador de Windows, pero con lo que ocupa de verdad cada carpeta. Árbol a la izquierda, tabla ordenable con tamaño, porcentaje, clase y fecha, y filtro por nombre. Pulsa «Explorador» arriba o ⇧⌘E.
