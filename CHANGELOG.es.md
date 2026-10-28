@@ -2,6 +2,12 @@
 
 DiskSpace AI se actualiza sola. También en [diskspaceai.com/es/novedades](https://diskspaceai.com/es/novedades).
 
+## 1.0.19
+
+- Al limpiar, una ventana te enseña cómo va: qué está limpiando, cuántos elementos quedan y cuánto llevas liberado. Al terminar comprueba el disco y te muestra el resultado en la misma ventana.
+- El resumen de «¡Limpieza hecha!» sale ahora en todas las limpiezas, no solo en las grandes. El confeti se guarda para cuando pasas de medio giga.
+- Si no se puede limpiar nada, la app te dice por qué.
+
 ## 1.0.18
 
 - Ayuda nueva: un solo buscador que filtra las preguntas mientras escribes (con Intro, se lo preguntas a la IA de Apple), «cómo funciona» en tres pasos y las preguntas ordenadas por temas.

@@ -2,6 +2,12 @@
 
 DiskSpace AI updates itself. Also at [diskspaceai.com/whats-new](https://diskspaceai.com/whats-new).
 
+## 1.0.19
+
+- While cleaning, a window shows how it's going: what it's cleaning, how many items are left and how much has been freed so far. When it finishes it checks the disk and shows the result in the same window.
+- The “All clean!” summary now appears after every cleanup, not just big ones. Confetti is saved for when you pass half a gigabyte.
+- If nothing could be cleaned, the app tells you why.
+
 ## 1.0.18
 
 - New help: one search box that filters the questions as you type (press Return to ask Apple's AI), “how it works” in three steps and the questions grouped by topic.

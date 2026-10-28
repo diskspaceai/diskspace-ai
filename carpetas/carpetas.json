@@ -276,7 +276,7 @@
     "category": "Cachés de apps",
     "verdict": "safe",
     "what_it_is": "Restos de una instalación o actualización de Docker Desktop que ya terminó; cierra Docker antes.",
-    "how_to_free": "Cierra Docker Desktop antes. Borrándola (a la papelera).",
+    "how_to_free": "Cierra Docker antes. Borrándola (a la papelera).",
     "guide": "https://diskspaceai.com/es/carpetas/docker-install-leftover"
   },
   {

@@ -276,7 +276,7 @@
     "category": "App caches",
     "verdict": "safe",
     "what_it_is": "Leftovers from a Docker Desktop install or update that already finished; quit Docker first.",
-    "how_to_free": "Quit Docker Desktop first. By deleting it (to the Trash).",
+    "how_to_free": "Quit Docker first. By deleting it (to the Trash).",
     "guide": "https://diskspaceai.com/folders/docker-install-leftover"
   },
   {
