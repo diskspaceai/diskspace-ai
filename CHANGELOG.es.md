@@ -2,6 +2,11 @@
 
 DiskSpace AI se actualiza sola. También en [diskspaceai.com/es/novedades](https://diskspaceai.com/es/novedades).
 
+## 1.0.16
+
+- Al limpiar, una ventana te enseña cuánto has limpiado, cómo queda tu disco, lo que más ocupaba y lo que llevas limpiado en total con DiskSpace AI, con un hito cuando llegas a 10, 50 o 100 GB.
+- Compártelo con un clic: con el menú de compartir de macOS, publicándolo en X o copiando la imagen para pegarla donde quieras. La tarjeta es nueva, más clara, y solo cuenta categorías: nunca nombres de proyectos ni rutas.
+
 ## 1.0.15
 
 - Firmada y notarizada por Apple: se abre sin avisos, y macOS comprueba que nadie la ha modificado.

@@ -2,6 +2,11 @@
 
 DiskSpace AI updates itself. Also at [diskspaceai.com/whats-new](https://diskspaceai.com/whats-new).
 
+## 1.0.16
+
+- After cleaning, a window shows how much you cleaned, how your disk looks now, what took the most space and how much you've cleaned in total with DiskSpace AI, with a milestone when you reach 10, 50 or 100 GB.
+- Share it in one click: with the macOS share menu, posting it on X or copying the image to paste anywhere. The card is new and lighter, and it only shows categories: never project names or paths.
+
 ## 1.0.15
 
 - Signed and notarized by Apple: it opens without warnings, and macOS checks nobody has modified it.
