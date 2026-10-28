@@ -2,6 +2,12 @@
 
 DiskSpace AI updates itself. Also at [diskspaceai.com/whats-new](https://diskspaceai.com/whats-new).
 
+## 1.0.18
+
+- New help: one search box that filters the questions as you type (press Return to ask Apple's AI), “how it works” in three steps and the questions grouped by topic.
+- Every answer has a button to do it: show Recently Cleaned, open Photos or the Explorer, connect your AI agent… Plus related questions to keep reading.
+- New questions: whether the app is safe and signed by Apple, and how to share what you cleaned. Keyboard shortcuts, in a table.
+
 ## 1.0.17
 
 - Recognizes three more folders: Perplexity's cache, Apple's Python cache and the cache of Sparkle's generate_appcast tool.

@@ -3,7 +3,7 @@
 <p align="center"><b>Libera espacio en tu Mac sin miedo.</b><br>
 Te dice qué es cada carpeta y solo marca lo que se regenera solo. Tus archivos se apartan 7 días, por si te equivocas.</p>
 <p align="center">
-  <a href="https://diskspaceai.com/download"><img alt="Versión 1.0.17" src="https://img.shields.io/badge/versi%C3%B3n-1.0.17-0b8a5c"></a>
+  <a href="https://diskspaceai.com/download"><img alt="Versión 1.0.18" src="https://img.shields.io/badge/versi%C3%B3n-1.0.18-0b8a5c"></a>
   <img alt="macOS 15+" src="https://img.shields.io/badge/macOS-15%2B-1d1d1f?logo=apple">
   <img alt="Apple silicon e Intel" src="https://img.shields.io/badge/Apple%20silicon%20e%20Intel-universal-48484a">
   <a href="https://diskspaceai.com/es/beta"><img alt="Beta gratis" src="https://img.shields.io/badge/beta-gratis%20hasta%20el%2031%20dic-1baf7a"></a>
@@ -36,7 +36,7 @@ Este repositorio es la **documentación pública** de DiskSpace AI: el catálogo
 
 ## Descargar
 
-[DiskSpace AI 1.0.17 para Mac](https://diskspaceai.com/download) · macOS 15 o posterior · Apple silicon e Intel. Durante la beta, Pro es gratis hasta el 31 de diciembre de 2026. Pasos de instalación en [la página de la beta](https://diskspaceai.com/es/beta).
+[DiskSpace AI 1.0.18 para Mac](https://diskspaceai.com/download) · macOS 15 o posterior · Apple silicon e Intel. Durante la beta, Pro es gratis hasta el 31 de diciembre de 2026. Pasos de instalación en [la página de la beta](https://diskspaceai.com/es/beta).
 
 Firmada y notarizada por Apple. También con Homebrew:
 

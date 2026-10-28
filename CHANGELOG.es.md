@@ -2,6 +2,12 @@
 
 DiskSpace AI se actualiza sola. También en [diskspaceai.com/es/novedades](https://diskspaceai.com/es/novedades).
 
+## 1.0.18
+
+- Ayuda nueva: un solo buscador que filtra las preguntas mientras escribes (con Intro, se lo preguntas a la IA de Apple), «cómo funciona» en tres pasos y las preguntas ordenadas por temas.
+- Cada respuesta trae un botón para hacerlo: ver lo apartado, abrir Fotos o el Explorador, conectar tu agente de IA… Y preguntas relacionadas para seguir leyendo.
+- Preguntas nuevas: si la app es segura y está firmada por Apple, y cómo compartir lo que has limpiado. Los atajos de teclado, en una tabla.
+
 ## 1.0.17
 
 - Reconoce tres carpetas más: la caché de Perplexity, la caché de Python de Apple y la de la herramienta generate_appcast de Sparkle.
