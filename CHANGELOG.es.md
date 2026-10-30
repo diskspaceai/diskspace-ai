@@ -2,6 +2,11 @@
 
 DiskSpace AI se actualiza sola. También en [diskspaceai.com/es/novedades](https://diskspaceai.com/es/novedades).
 
+## 1.0.21
+
+- Nueva ventana «Enviar sugerencia» (en el menú Ayuda, en la Ayuda y en Ajustes): cuéntanos una idea o un fallo sin salir de la app y, si dejas tu correo, te contestamos.
+- Si algo no funciona, puedes adjuntar un diagnóstico técnico: versión, macOS, espacio del disco, qué encontró la app y los errores de la última limpieza. Lo ves entero antes de enviarlo y nunca lleva nombres de archivos ni rutas.
+
 ## 1.0.20
 
 - Con el disco casi lleno, un aviso arriba te dice cuánto queda, recupera lo seguro con un botón y te enseña las tres cosas más grandes que tienes que decidir.

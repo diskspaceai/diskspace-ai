@@ -2,6 +2,11 @@
 
 DiskSpace AI updates itself. Also at [diskspaceai.com/whats-new](https://diskspaceai.com/whats-new).
 
+## 1.0.21
+
+- New “Send Feedback” window (in the Help menu, in Help and in Settings): tell us an idea or a bug without leaving the app and, if you leave your email, we'll reply.
+- If something's wrong, you can attach technical diagnostics: version, macOS, disk space, what the app found and errors from the last cleanup. You see it all before sending, and it never includes file names or paths.
+
 ## 1.0.20
 
 - When your disk is almost full, a banner at the top tells you how much is left, gets back the safe items with one button and shows the three biggest things you need to decide on.
