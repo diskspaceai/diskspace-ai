@@ -2,6 +2,12 @@
 
 DiskSpace AI updates itself. Also at [diskspaceai.com/whats-new](https://diskspaceai.com/whats-new).
 
+## 1.0.22
+
+- New “Recommended”: besides the safe items, it selects what you don't use and can recover (unused simulators and AI models, old simulator systems, installers, dependencies of idle projects and apps you never open). Each item says why it's included. It never selects your files or Docker.
+- At the bottom, “Safe” and “Recommended” show how much each would free. The active one is filled in, and if you change anything by hand it becomes “Your choice”.
+- When your disk is almost full, the banner at the top also offers “Recommended”.
+
 ## 1.0.21
 
 - New “Send Feedback” window (in the Help menu, in Help and in Settings): tell us an idea or a bug without leaving the app and, if you leave your email, we'll reply.

@@ -2,6 +2,12 @@
 
 DiskSpace AI se actualiza sola. También en [diskspaceai.com/es/novedades](https://diskspaceai.com/es/novedades).
 
+## 1.0.22
+
+- Nuevo «Recomendado»: además de lo seguro, marca lo que no usas y se puede recuperar (simuladores y modelos de IA sin usar, sistemas de simulador viejos, instaladores, dependencias de proyectos parados y apps que no abres). Cada elemento dice por qué entra. Nunca marca tus archivos ni Docker.
+- Abajo, «Lo seguro» y «Recomendado» enseñan cuánto liberarían. El que está puesto se ve relleno, y si cambias algo a mano pasa a «Tu elección».
+- Con el disco casi lleno, el aviso de arriba también ofrece «Recomendado».
+
 ## 1.0.21
 
 - Nueva ventana «Enviar sugerencia» (en el menú Ayuda, en la Ayuda y en Ajustes): cuéntanos una idea o un fallo sin salir de la app y, si dejas tu correo, te contestamos.
