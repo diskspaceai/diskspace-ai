@@ -3,7 +3,7 @@
 <p align="center"><b>Free up space on your Mac without fear.</b><br>
 It tells you what every folder is and only selects what recreates itself. Your files are kept for 7 days, in case you change your mind.</p>
 <p align="center">
-  <a href="https://diskspaceai.com/download"><img alt="Version 1.0.19" src="https://img.shields.io/badge/version-1.0.19-0b8a5c"></a>
+  <a href="https://diskspaceai.com/download"><img alt="Version 1.0.20" src="https://img.shields.io/badge/version-1.0.20-0b8a5c"></a>
   <img alt="macOS 15+" src="https://img.shields.io/badge/macOS-15%2B-1d1d1f?logo=apple">
   <img alt="Apple silicon and Intel" src="https://img.shields.io/badge/Apple%20silicon%20%26%20Intel-universal-48484a">
   <a href="https://diskspaceai.com/beta"><img alt="Free beta" src="https://img.shields.io/badge/beta-free%20until%20Dec%2031-1baf7a"></a>
@@ -36,7 +36,7 @@ This repository is DiskSpace AI's **public documentation**: the catalog of folde
 
 ## Download
 
-[DiskSpace AI 1.0.19 for Mac](https://diskspaceai.com/download) · macOS 15 or later · Apple silicon and Intel. During the beta, Pro is free until December 31, 2026. Install steps on [the beta page](https://diskspaceai.com/beta).
+[DiskSpace AI 1.0.20 for Mac](https://diskspaceai.com/download) · macOS 15 or later · Apple silicon and Intel. During the beta, Pro is free until December 31, 2026. Install steps on [the beta page](https://diskspaceai.com/beta).
 
 Signed and notarized by Apple. Also with Homebrew:
 

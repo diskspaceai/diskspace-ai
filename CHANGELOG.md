@@ -2,6 +2,13 @@
 
 DiskSpace AI updates itself. Also at [diskspaceai.com/whats-new](https://diskspaceai.com/whats-new).
 
+## 1.0.20
+
+- When your disk is almost full, a banner at the top tells you how much is left, gets back the safe items with one button and shows the three biggest things you need to decide on.
+- Big items to review now say when you last used or changed them: “changed today”, “unchanged for 6 months”. Simulators that are shut down show their real date instead of “never opened”.
+- “Show Whole Disk” splits the gray block into macOS, Applications and your files.
+- AI explanations are shown in full and always in the app's language.
+
 ## 1.0.19
 
 - While cleaning, a window shows how it's going: what it's cleaning, how many items are left and how much has been freed so far. When it finishes it checks the disk and shows the result in the same window.

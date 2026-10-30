@@ -2,6 +2,13 @@
 
 DiskSpace AI se actualiza sola. También en [diskspaceai.com/es/novedades](https://diskspaceai.com/es/novedades).
 
+## 1.0.20
+
+- Con el disco casi lleno, un aviso arriba te dice cuánto queda, recupera lo seguro con un botón y te enseña las tres cosas más grandes que tienes que decidir.
+- Lo grande que hay que revisar dice cuándo lo usaste o cambiaste por última vez: «con cambios hoy», «sin cambios desde hace 6 meses». Los simuladores apagados ya muestran su fecha real en vez de «nunca abierto».
+- «Ver disco entero» separa el bloque gris en macOS, Aplicaciones y tus archivos.
+- Las explicaciones de la IA se ven enteras y siempre en el idioma de la app.
+
 ## 1.0.19
 
 - Al limpiar, una ventana te enseña cómo va: qué está limpiando, cuántos elementos quedan y cuánto llevas liberado. Al terminar comprueba el disco y te muestra el resultado en la misma ventana.
