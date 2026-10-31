@@ -2,6 +2,10 @@
 
 DiskSpace AI se actualiza sola. También en [diskspaceai.com/es/novedades](https://diskspaceai.com/es/novedades).
 
+## 1.0.23
+
+- La Ayuda explica lo último: qué significan las fechas («sin cambios desde hace…», «usado hoy»), el aviso de disco lleno, el nuevo desglose de «Ver disco entero» y la diferencia entre «Lo seguro» y «Recomendado».
+
 ## 1.0.22
 
 - Nuevo «Recomendado»: además de lo seguro, marca lo que no usas y se puede recuperar (simuladores y modelos de IA sin usar, sistemas de simulador viejos, instaladores, dependencias de proyectos parados y apps que no abres). Cada elemento dice por qué entra. Nunca marca tus archivos ni Docker.

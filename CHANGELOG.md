@@ -2,6 +2,10 @@
 
 DiskSpace AI updates itself. Also at [diskspaceai.com/whats-new](https://diskspaceai.com/whats-new).
 
+## 1.0.23
+
+- Help now covers the latest: what the dates mean (“unchanged for…”, “used today”), the disk-full banner, the new “Show Whole Disk” breakdown and the difference between “Safe” and “Recommended”.
+
 ## 1.0.22
 
 - New “Recommended”: besides the safe items, it selects what you don't use and can recover (unused simulators and AI models, old simulator systems, installers, dependencies of idle projects and apps you never open). Each item says why it's included. It never selects your files or Docker.
