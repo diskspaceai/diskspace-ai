@@ -2,6 +2,11 @@
 
 DiskSpace AI se actualiza sola. También en [diskspaceai.com/es/novedades](https://diskspaceai.com/es/novedades).
 
+## 1.0.25
+
+- Mientras la app analiza o explica con IA, una barra te dice qué está haciendo y cuánto le falta (lo calcula con lo que tardó la última vez). Así sabes cuándo podrás pulsar «Limpiar».
+- Los botones cambian de tono al pasar el ratón por encima.
+
 ## 1.0.24
 
 - Antes de limpiar, repasas la lista: al pulsar «Limpiar» ves todo lo marcado agrupado por lo que le pasa (se borra ya, lo borra su herramienta o se aparta 7 días), con su explicación, cuánto ocupa y, si viene de «Recomendado», por qué.

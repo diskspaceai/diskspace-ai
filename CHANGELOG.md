@@ -2,6 +2,11 @@
 
 DiskSpace AI updates itself. Also at [diskspaceai.com/whats-new](https://diskspaceai.com/whats-new).
 
+## 1.0.25
+
+- While the app analyzes or explains with AI, a bar tells you what it's doing and how long is left (based on how long it took last time). So you know when you'll be able to click “Clean”.
+- Buttons change tone when you hover over them.
+
 ## 1.0.24
 
 - Review the list before cleaning: when you click “Clean” you see everything selected, grouped by what happens to it (deleted right away, deleted by its own tool or kept 7 days), with its explanation, its size and, if it comes from “Recommended”, why.
