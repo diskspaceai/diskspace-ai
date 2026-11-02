@@ -2,6 +2,11 @@
 
 DiskSpace AI updates itself. Also at [diskspaceai.com/whats-new](https://diskspaceai.com/whats-new).
 
+## 1.0.24
+
+- Review the list before cleaning: when you click “Clean” you see everything selected, grouped by what happens to it (deleted right away, deleted by its own tool or kept 7 days), with its explanation, its size and, if it comes from “Recommended”, why.
+- If something doesn't feel right, untick it right there: the total updates and nothing is deleted until you confirm.
+
 ## 1.0.23
 
 - Help now covers the latest: what the dates mean (“unchanged for…”, “used today”), the disk-full banner, the new “Show Whole Disk” breakdown and the difference between “Safe” and “Recommended”.

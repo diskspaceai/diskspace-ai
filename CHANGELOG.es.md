@@ -2,6 +2,11 @@
 
 DiskSpace AI se actualiza sola. También en [diskspaceai.com/es/novedades](https://diskspaceai.com/es/novedades).
 
+## 1.0.24
+
+- Antes de limpiar, repasas la lista: al pulsar «Limpiar» ves todo lo marcado agrupado por lo que le pasa (se borra ya, lo borra su herramienta o se aparta 7 días), con su explicación, cuánto ocupa y, si viene de «Recomendado», por qué.
+- Si algo no te convence, lo desmarcas ahí mismo: el total se actualiza y nada se borra hasta que confirmas.
+
 ## 1.0.23
 
 - La Ayuda explica lo último: qué significan las fechas («sin cambios desde hace…», «usado hoy»), el aviso de disco lleno, el nuevo desglose de «Ver disco entero» y la diferencia entre «Lo seguro» y «Recomendado».
