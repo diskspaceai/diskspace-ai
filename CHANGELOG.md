@@ -2,6 +2,12 @@
 
 DiskSpace AI updates itself. Also at [diskspaceai.com/whats-new](https://diskspaceai.com/whats-new).
 
+## 1.0.26
+
+- If your Mac has other accounts, you can now see how much space each one takes: in the Explorer, under “This Mac”, click “See How Much They Take…”. It asks for an administrator password, because macOS doesn't let any app look inside another account.
+- You'll see each account's total, which folders hold the space, when it was last used and what the app recognizes inside (caches, AI models…). It only measures: their documents are never opened and nothing is deleted.
+- If an account hasn't been used in over 3 months, it tells you and takes you to Users & Groups, in case it's no longer needed.
+
 ## 1.0.25
 
 - While the app analyzes or explains with AI, a bar tells you what it's doing and how long is left (based on how long it took last time). So you know when you'll be able to click “Clean”.

@@ -2,6 +2,12 @@
 
 DiskSpace AI se actualiza sola. También en [diskspaceai.com/es/novedades](https://diskspaceai.com/es/novedades).
 
+## 1.0.26
+
+- Si en tu Mac hay más cuentas, ahora puedes ver cuánto ocupa cada una: en el Explorador, en «Este Mac», pulsa «Ver cuánto ocupan…». Te pedirá la contraseña de un administrador, porque macOS no deja que ninguna app mire dentro de otra cuenta.
+- Verás el total de cada cuenta, en qué carpetas está el espacio, cuándo se usó por última vez y lo que la app reconoce dentro (cachés, modelos de IA…). Solo mide: no abre sus documentos ni borra nada.
+- Si una cuenta lleva más de 3 meses sin usarse, te lo dice y te lleva a Usuarios y grupos, por si ya no hace falta.
+
 ## 1.0.25
 
 - Mientras la app analiza o explica con IA, una barra te dice qué está haciendo y cuánto le falta (lo calcula con lo que tardó la última vez). Así sabes cuándo podrás pulsar «Limpiar».
