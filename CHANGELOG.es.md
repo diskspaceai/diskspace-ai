@@ -2,6 +2,12 @@
 
 DiskSpace AI se actualiza sola. También en [diskspaceai.com/es/novedades](https://diskspaceai.com/es/novedades).
 
+## 1.0.27
+
+- Si Docker Desktop está cerrado, la app ya no se queda en «ábrelo tú»: pulsa «Abrir Docker» y lo abre en segundo plano, enseña cuánto ocupa cada imagen, la caché de compilación y los volúmenes, y después te ofrece volver a cerrarlo.
+- Limpiar la caché de compilación de Docker ahora libera todo lo que anuncia (antes se quedaba en una parte).
+- Si Docker no responde, la app deja de esperarlo y te lo dice, en vez de quedarse parada.
+
 ## 1.0.26
 
 - Si en tu Mac hay más cuentas, ahora puedes ver cuánto ocupa cada una: en el Explorador, en «Este Mac», pulsa «Ver cuánto ocupan…». Te pedirá la contraseña de un administrador, porque macOS no deja que ninguna app mire dentro de otra cuenta.

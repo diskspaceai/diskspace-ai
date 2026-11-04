@@ -2,6 +2,12 @@
 
 DiskSpace AI updates itself. Also at [diskspaceai.com/whats-new](https://diskspaceai.com/whats-new).
 
+## 1.0.27
+
+- If Docker Desktop is closed, the app no longer just tells you to open it: click “Open Docker” and it opens it in the background, shows what each image, the build cache and the volumes take, and then offers to quit it again.
+- Cleaning Docker's build cache now frees everything it announces (before, it only freed part of it).
+- If Docker doesn't respond, the app stops waiting and tells you, instead of getting stuck.
+
 ## 1.0.26
 
 - If your Mac has other accounts, you can now see how much space each one takes: in the Explorer, under “This Mac”, click “See How Much They Take…”. It asks for an administrator password, because macOS doesn't let any app look inside another account.
