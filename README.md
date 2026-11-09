@@ -12,6 +12,7 @@ It tells you what every folder is and only selects what recreates itself. Your f
   <a href="https://diskspaceai.com/"><b>Website</b></a> ·
   <a href="https://diskspaceai.com/beta"><b>Download the beta</b></a> ·
   <a href="https://diskspaceai.com/#demo">Interactive demo</a> ·
+  <a href="folders/README.md">Folder catalog</a> ·
   <a href="mcp/README.md">For AI agents (MCP)</a> ·
   <a href="README.es.md">Español</a>
 </p>
@@ -33,6 +34,32 @@ This repository is DiskSpace AI's **public documentation**: the catalog of folde
 - **Your files never leave your Mac.** No analytics or tracking.
 
 <p align="center"><img src="assets/app.jpg" alt="DiskSpace AI window: disk map colored by safety and list of what can be cleaned"></p>
+
+## The 73 folders filling up your Mac, and whether you can delete them
+
+The catalog the app uses, open to everyone: what each folder is, which tool recreates it and the right command to free it. A sample:
+
+| Folder | Verdict | How to free it |
+|---|---|---|
+| [Xcode build data](https://diskspaceai.com/folders/xcode-derived-data)<br><sub>`~/Library/Developer/Xcode/DerivedData`</sub> | 🟢 Recreates itself | By emptying the folder's contents (the folder stays). |
+| [iPhone simulators](https://diskspaceai.com/folders/ios-simulators)<br><sub>`~/Library/Developer/CoreSimulator/Devices`</sub> | 🟠 Review | Delete them one by one in DiskSpace AI or in Xcode → Devices and Simulators. |
+| [Docker virtual disk](https://diskspaceai.com/folders/docker-disk)<br><sub>`~/Library/Containers/com.docker.docker/Data/vms/0/data/Docker.raw`</sub> | 🟠 Review | With the tool's own command: `docker system prune -f` |
+| [npm cache](https://diskspaceai.com/folders/npm-cache)<br><sub>`~/.npm/_cacache`</sub> | 🟢 Recreates itself | With the tool's own command: `npm cache clean --force` |
+| [pnpm store](https://diskspaceai.com/folders/pnpm-store)<br><sub>`~/Library/pnpm/store`</sub> | 🟢 Recreates itself | With the tool's own command: `pnpm store prune` |
+| [Hugging Face models](https://diskspaceai.com/folders/huggingface)<br><sub>`~/.cache/huggingface`</sub> | 🟠 Review | huggingface-cli delete-cache (lets you choose which models to delete). |
+
+**[See all 73](folders/README.md)** · also as [JSON](folders/folders.json) for your scripts.
+
+## Why you can trust it
+
+The app isn't open source, so here's what you can check for yourself:
+
+- **Signed and notarized by Apple.** It opens without security warnings; if anyone tampered with it, macOS wouldn't let it open.
+- **Scanned on VirusTotal.** [The report for the exact file you download](https://www.virustotal.com/gui/file/a4c556aeb39d47ebe0015b34342d36d05b23cf59d07e588839ff1ada8e4ea2bf).
+- **Nothing leaves your Mac.** No account, no analytics, no tracking. Folders it doesn't know are explained by Apple's AI on the Mac itself.
+- **The rules are public.** This catalog is exactly what the app considers safe to delete, and how it deletes it.
+- **It never deletes your stuff outright.** Only what recreates itself is deleted right away; your files are set aside for 7 days and can be restored.
+- **Try it risk-free from the terminal.** The `diskspace` command only does a dry run until you ask it to clean.
 
 ## Download
 

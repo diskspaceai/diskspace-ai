@@ -12,6 +12,7 @@ Te dice qué es cada carpeta y solo marca lo que se regenera solo. Tus archivos 
   <a href="https://diskspaceai.com/es/"><b>Web</b></a> ·
   <a href="https://diskspaceai.com/es/beta"><b>Descargar la beta</b></a> ·
   <a href="https://diskspaceai.com/es/#demo">Demo interactiva</a> ·
+  <a href="carpetas/README.md">Catálogo de carpetas</a> ·
   <a href="mcp/README.es.md">Para agentes de IA (MCP)</a> ·
   <a href="README.md">English</a>
 </p>
@@ -33,6 +34,32 @@ Este repositorio es la **documentación pública** de DiskSpace AI: el catálogo
 - **Tus archivos no salen de tu Mac.** Sin analítica ni seguimiento.
 
 <p align="center"><img src="assets/app-es.jpg" alt="Ventana de DiskSpace AI: mapa del disco por colores y lista de lo que se puede limpiar"></p>
+
+## Las 73 carpetas que llenan tu Mac, y si se pueden borrar
+
+El catálogo que usa la app, abierto para cualquiera: qué es cada carpeta, quién la vuelve a crear y la orden correcta para liberarla. Una muestra:
+
+| Carpeta | Veredicto | Cómo liberarla |
+|---|---|---|
+| [Compilaciones de Xcode](https://diskspaceai.com/es/carpetas/xcode-derived-data)<br><sub>`~/Library/Developer/Xcode/DerivedData`</sub> | 🟢 Se regenera solo | Vaciando el contenido de la carpeta (la carpeta se queda). |
+| [Simuladores de iPhone](https://diskspaceai.com/es/carpetas/ios-simulators)<br><sub>`~/Library/Developer/CoreSimulator/Devices`</sub> | 🟠 Revisar | Bórralos uno a uno en DiskSpace AI o en Xcode → Devices and Simulators. |
+| [Disco virtual de Docker](https://diskspaceai.com/es/carpetas/docker-disk)<br><sub>`~/Library/Containers/com.docker.docker/Data/vms/0/data/Docker.raw`</sub> | 🟠 Revisar | Con el comando de la propia herramienta: `docker system prune -f` |
+| [Caché de npm](https://diskspaceai.com/es/carpetas/npm-cache)<br><sub>`~/.npm/_cacache`</sub> | 🟢 Se regenera solo | Con el comando de la propia herramienta: `npm cache clean --force` |
+| [Almacén de pnpm](https://diskspaceai.com/es/carpetas/pnpm-store)<br><sub>`~/Library/pnpm/store`</sub> | 🟢 Se regenera solo | Con el comando de la propia herramienta: `pnpm store prune` |
+| [Modelos de Hugging Face](https://diskspaceai.com/es/carpetas/huggingface)<br><sub>`~/.cache/huggingface`</sub> | 🟠 Revisar | huggingface-cli delete-cache (te deja elegir qué modelos borrar). |
+
+**[Ver las 73](carpetas/README.md)** · también en [JSON](carpetas/carpetas.json) para tus scripts.
+
+## Por qué puedes fiarte
+
+La app no es de código abierto, así que esto es lo que puedes comprobar tú:
+
+- **Firmada y notarizada por Apple.** Se abre sin avisos de seguridad; si alguien la modificara, macOS no la dejaría abrir.
+- **Analizada en VirusTotal.** [El informe del archivo exacto que se descarga](https://www.virustotal.com/gui/file/a4c556aeb39d47ebe0015b34342d36d05b23cf59d07e588839ff1ada8e4ea2bf).
+- **Nada sale de tu Mac.** Sin cuentas, sin analítica y sin seguimiento. Las carpetas que no conoce las explica la IA de Apple en el propio Mac.
+- **Las reglas están a la vista.** Este catálogo es exactamente lo que la app considera seguro borrar, y cómo lo borra.
+- **Nunca borra lo tuyo de golpe.** Solo se borra al momento lo que se regenera solo; tus archivos se apartan 7 días y se pueden recuperar.
+- **Prueba sin riesgo desde la terminal.** La orden `diskspace` solo simula hasta que le pides limpiar.
 
 ## Descargar
 
