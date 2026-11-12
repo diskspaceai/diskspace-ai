@@ -3,7 +3,7 @@
 <p align="center"><b>Libera espacio en tu Mac sin miedo.</b><br>
 Te dice qué es cada carpeta y solo marca lo que se regenera solo. Tus archivos se apartan 7 días, por si te equivocas.</p>
 <p align="center">
-  <a href="https://diskspaceai.com/download"><img alt="Versión 1.0.27" src="https://img.shields.io/badge/versi%C3%B3n-1.0.27-0b8a5c"></a>
+  <a href="https://diskspaceai.com/download"><img alt="Versión 1.0.28" src="https://img.shields.io/badge/versi%C3%B3n-1.0.28-0b8a5c"></a>
   <img alt="macOS 15+" src="https://img.shields.io/badge/macOS-15%2B-1d1d1f?logo=apple">
   <img alt="Apple silicon e Intel" src="https://img.shields.io/badge/Apple%20silicon%20e%20Intel-universal-48484a">
   <a href="https://diskspaceai.com/es/beta"><img alt="Beta gratis" src="https://img.shields.io/badge/beta-gratis%20hasta%20el%2031%20dic-1baf7a"></a>
@@ -55,7 +55,7 @@ El catálogo que usa la app, abierto para cualquiera: qué es cada carpeta, qui�
 La app no es de código abierto, así que esto es lo que puedes comprobar tú:
 
 - **Firmada y notarizada por Apple.** Se abre sin avisos de seguridad; si alguien la modificara, macOS no la dejaría abrir.
-- **Analizada en VirusTotal.** [El informe del archivo exacto que se descarga](https://www.virustotal.com/gui/file/a4c556aeb39d47ebe0015b34342d36d05b23cf59d07e588839ff1ada8e4ea2bf).
+- **Analizada en VirusTotal.** [El informe del archivo exacto que se descarga](https://www.virustotal.com/gui/file/205d80b30aa3e7153c25d68e388ead37bc768f65bc637771e77e58aed13b8793).
 - **Nada sale de tu Mac.** Sin cuentas, sin analítica y sin seguimiento. Las carpetas que no conoce las explica la IA de Apple en el propio Mac.
 - **Las reglas están a la vista.** Este catálogo es exactamente lo que la app considera seguro borrar, y cómo lo borra.
 - **Nunca borra lo tuyo de golpe.** Solo se borra al momento lo que se regenera solo; tus archivos se apartan 7 días y se pueden recuperar.
@@ -63,7 +63,7 @@ La app no es de código abierto, así que esto es lo que puedes comprobar tú:
 
 ## Descargar
 
-[DiskSpace AI 1.0.27 para Mac](https://diskspaceai.com/download) · macOS 15 o posterior · Apple silicon e Intel. Durante la beta, Pro es gratis hasta el 31 de diciembre de 2026. Pasos de instalación en [la página de la beta](https://diskspaceai.com/es/beta).
+[DiskSpace AI 1.0.28 para Mac](https://diskspaceai.com/download) · macOS 15 o posterior · Apple silicon e Intel. Durante la beta, Pro es gratis hasta el 31 de diciembre de 2026. Pasos de instalación en [la página de la beta](https://diskspaceai.com/es/beta).
 
 Firmada y notarizada por Apple. También con Homebrew:
 

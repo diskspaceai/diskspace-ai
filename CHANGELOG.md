@@ -2,6 +2,13 @@
 
 DiskSpace AI updates itself. Also at [diskspaceai.com/whats-new](https://diskspaceai.com/whats-new).
 
+## 1.0.28
+
+- New “Applications” button (⇧⌘U): all your apps sorted by the space they take, counting their data, with when you last used them and, if you like, what each one is and what you lose by removing it, explained by your Mac's AI.
+- Check one or several and click “Uninstall”: they're quit if open, the app goes to the Trash and its data (caches, settings, sessions) is set aside for 7 days in case you change your mind. “Apps You Don't Use” now uninstalls them the same way.
+- You can empty the Trash from the app: on the “Trash” row or right after uninstalling. It warns you first that everything in it is deleted and can't be undone.
+- If macOS protects one of an app's folders, the cleanup carries on with the rest, tells you why and takes you to grant Full Disk Access.
+
 ## 1.0.27
 
 - If Docker Desktop is closed, the app no longer just tells you to open it: click “Open Docker” and it opens it in the background, shows what each image, the build cache and the volumes take, and then offers to quit it again.

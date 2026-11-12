@@ -2,6 +2,13 @@
 
 DiskSpace AI se actualiza sola. También en [diskspaceai.com/es/novedades](https://diskspaceai.com/es/novedades).
 
+## 1.0.28
+
+- Nuevo botón «Aplicaciones» (⇧⌘U): todas tus apps ordenadas por lo que ocupan, contando sus datos, con cuándo las usaste por última vez y, si quieres, qué es cada una y qué pierdes al quitarla, explicado por la IA de tu Mac.
+- Marca una o varias y pulsa «Desinstalar»: se cierran si están abiertas, la app va a la Papelera y sus datos (cachés, ajustes, sesiones) se apartan 7 días por si te arrepientes. «Apps que no usas» ahora también las desinstala así.
+- Puedes vaciar la Papelera desde la app: en la fila «Papelera» o justo después de desinstalar. Antes te avisa de que se borra todo lo que hay en ella y no se puede deshacer.
+- Si macOS protege alguna carpeta de una app, la limpieza sigue con las demás, te explica por qué y te lleva a dar Acceso total al disco.
+
 ## 1.0.27
 
 - Si Docker Desktop está cerrado, la app ya no se queda en «ábrelo tú»: pulsa «Abrir Docker» y lo abre en segundo plano, enseña cuánto ocupa cada imagen, la caché de compilación y los volúmenes, y después te ofrece volver a cerrarlo.
